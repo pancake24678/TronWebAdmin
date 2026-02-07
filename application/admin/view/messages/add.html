@@ -1,0 +1,53 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Message_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+               {:build_radios('row[message_type]', $messageTypeList)}
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_read_all')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[is_read_all]', [ '1'=>'全体','0'=>'个人'],'1')}
+        </div>
+    </div>
+    <div class="form-group" id="receive_admin_ids" style="display:none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Receive_admin_ids')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-receive_admin_ids" data-source="auth/admin/selectpage" data-field="nickname" data-multiple="true" class="form-control selectpage" name="row[receive_admin_ids]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" class="form-control" name="row[title]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-content" data-rule="required" class="form-control editor" rows="5" name="row[content]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Fj_file')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-fj_file" class="form-control" size="50" name="row[fj_file]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="faupload-fj_file" class="btn btn-danger faupload" data-input-id="c-fj_file" data-multiple="false" data-preview-id="p-fj_file"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-fj_file" class="btn btn-primary fachoose" data-input-id="c-fj_file" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-fj_file"></span>
+            </div>
+            <ul class="row list-inline faupload-preview" id="p-fj_file"></ul>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

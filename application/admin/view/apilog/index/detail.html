@@ -1,0 +1,31 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: xiaoyu5062
+ * @QQ/Email: xiaoyu5062@qq.com
+ * @Date: 2020-07-25 10:01:48
+ * @LastEditors: xiaoyu5062
+ * @LastEditTime: 2025-02-19 16:25:08
+-->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>{:__('Title')}</th>
+            <th>{:__('Content')}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {volist name="row" id="vo"  }
+            <tr>
+                <td>{:__($key)}</td>
+                <td>{if $key=='createtime'}{$vo|datetime|htmlentities}{else/}{$vo|htmlentities}{/if}</td>
+            </tr>
+        {/volist}
+    </tbody>
+</table>
+<div class="hide layer-footer">
+    <label class="control-label col-xs-12 col-sm-2"></label>
+    <div class="col-xs-12 col-sm-8">
+        <button type="reset" class="btn btn-primary btn-embossed btn-close" onclick="Layer.closeAll();">{:__('Close')}</button>
+    </div>
+</div>

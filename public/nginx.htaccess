@@ -1,0 +1,8 @@
+location / {
+    index index.html index.htm index.php;
+    # 如果文件或目录不存在，则将请求重写到index.php
+    if (!-e $request_filename) {
+        rewrite ^(.*)$ /index.php?s=$1 last;
+        break;
+    }
+}

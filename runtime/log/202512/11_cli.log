@@ -1,0 +1,961 @@
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002120s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002275s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000380s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000946s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000039s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000137s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000165s ]
+info
+[ 2025-12-11T00:00:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000031s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002173s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002366s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000441s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001005s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000038s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000130s ]
+info
+[ 2025-12-11T00:00:55+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-11T00:01:00+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000138s ]
+info
+[ 2025-12-11T00:01:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000047s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002058s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002225s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000452s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000829s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000126s ]
+info
+[ 2025-12-11T00:01:08+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-11T00:01:13+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000152s ]
+info
+[ 2025-12-11T00:01:13+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000042s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002490s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002669s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000406s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000810s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000121s ]
+info
+[ 2025-12-11T00:01:22+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-11T00:01:27+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+info
+[ 2025-12-11T00:01:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000054s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002256s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002422s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000438s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000903s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000044s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000161s ]
+info
+[ 2025-12-11T00:07:38+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002060s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002216s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000413s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000811s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000026s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000129s ]
+info
+[ 2025-12-11T00:20:14+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002278s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002428s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000398s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000809s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000028s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-11T00:22:28+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002106s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002256s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000434s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000845s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000028s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000133s ]
+info
+[ 2025-12-11T00:51:51+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002305s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002468s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000424s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000834s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000137s ]
+info
+[ 2025-12-11T00:56:53+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002023s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002189s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000363s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000793s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000025s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000133s ]
+info
+[ 2025-12-11T00:57:25+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002147s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002300s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000383s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000863s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000031s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000150s ]
+info
+[ 2025-12-11T00:58:24+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002066s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002215s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000402s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000813s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000026s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000147s ]
+info
+[ 2025-12-11T00:59:32+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002441s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002760s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000446s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000817s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000139s ]
+info
+[ 2025-12-11T00:59:54+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002218s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002461s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000574s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001182s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000039s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000137s ]
+info
+[ 2025-12-11T01:00:52+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002055s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002217s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000424s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000863s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000038s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000143s ]
+info
+[ 2025-12-11T01:01:12+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002468s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002655s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000605s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000865s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000038s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000141s ]
+info
+[ 2025-12-11T01:04:02+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000081s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002281s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002440s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000565s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000825s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000037s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000134s ]
+info
+[ 2025-12-11T01:04:18+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001966s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002126s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000412s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000895s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000037s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000191s ]
+info
+[ 2025-12-11T01:05:47+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002021s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002174s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000364s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000794s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000126s ]
+info
+[ 2025-12-11T01:06:47+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002569s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002734s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000400s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001157s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000042s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000138s ]
+info
+[ 2025-12-11T01:07:50+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002122s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002288s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000430s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000842s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000037s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000147s ]
+info
+[ 2025-12-11T01:42:48+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002074s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002226s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000425s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001084s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000165s ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-11T11:06:52+08:00 ][ error ] [2]stream_socket_server(): Unable to connect to tcp://0.0.0.0: (Failed to parse address "0.0.0.0:")[D:\share\fadmin\vendor\workerman\workerman-for-win\Worker.php:739]
+error
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002023s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002168s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000356s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000790s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000028s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000124s ]
+info
+[ 2025-12-11T11:07:27+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info

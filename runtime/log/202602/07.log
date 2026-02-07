@@ -1,0 +1,122 @@
+---------------------------------------------------------------
+[ 2026-02-07T10:17:33+08:00 ] 172.20.10.3 GET 172.20.10.3:83/jnBIzEyaWQ.php/ausers/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770392854117
+[运行时间：0.155911s] [吞吐率：6.41req/s] [内存消耗：4,344.16kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.011476s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011537s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002088s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000061s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ausers',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5af0fc868f4c502873f17336d3a0d0b7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => '172.20.10.3:83',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1770392854117',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003551s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000050s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000167s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000144s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000123s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ausers.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000045s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\share\fadmin\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000917s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T10:17:38+08:00 ] 172.20.10.3 GET 172.20.10.3:83/jnBIzEyaWQ.php/ausers/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770392854118
+[运行时间：0.128319s] [吞吐率：7.79req/s] [内存消耗：4,344.16kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.011655s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011709s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001919s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000053s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ausers',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5af0fc868f4c502873f17336d3a0d0b7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => '172.20.10.3:83',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1770392854118',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003684s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000179s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000862s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000593s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000628s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ausers.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000208s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ D:\share\fadmin\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000026s ]
+[ info ] [ LOG ] INIT File

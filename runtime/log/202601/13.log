@@ -1,0 +1,439 @@
+---------------------------------------------------------------
+[ 2026-01-13T09:17:59+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php
+[运行时间：0.035606s] [吞吐率：28.09req/s] [内存消耗：3,018.66kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000108s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.003693s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003719s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000809s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'x-source' => 'chrome-extension://laljofodhebajcajogbolahbjdcnfgkf/app/webext.html',
+  'x-extension' => 'laljofodhebajcajogbolahbjdcnfgkf',
+  'accept' => 'text/html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001082s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000191s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000022s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:17:59+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/index/login
+[运行时间：0.021896s] [吞吐率：45.67req/s] [内存消耗：3,360.05kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001714s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001726s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000280s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=di9qd1gsjofnvdj2lgh62f530o',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'x-source' => 'chrome-extension://laljofodhebajcajogbolahbjdcnfgkf/app/webext.html',
+  'x-extension' => 'laljofodhebajcajogbolahbjdcnfgkf',
+  'accept' => 'text/html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000722s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000023s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000433s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000348s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000393s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000060s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\share\fadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\share\fadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @view_filter [ RunTime:0.000086s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000070s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000018s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:30:14+08:00 ] 192.168.1.9 POST 192.168.1.179/api/test
+[运行时间：0.075761s] [吞吐率：13.20req/s] [内存消耗：4,027.71kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001952s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001964s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000321s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '92',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'prepare much',
+  'source' => 'im.token.app',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000710s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000547s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000148s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.054462s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:39:07+08:00 ] 192.168.1.9 POST 192.168.1.179/api/test
+[运行时间：0.139817s] [吞吐率：7.15req/s] [内存消耗：4,027.77kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001956s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001967s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000324s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '107',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'question sister half',
+  'source' => 'vip.mytokenpocket',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000760s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000174s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000159s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.119410s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:41:06+08:00 ] 192.168.1.9 POST 192.168.1.179/api/test
+[运行时间：0.149184s] [吞吐率：6.70req/s] [内存消耗：4,027.77kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001608s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001620s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000265s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '112',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'imitate humble jacket junior',
+  'source' => 'im.token.app',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000619s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000135s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000112s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.132361s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:41:37+08:00 ] 192.168.1.5 POST 192.168.1.179/api/test
+[运行时间：0.131672s] [吞吐率：7.59req/s] [内存消耗：4,027.80kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002190s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002207s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000366s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '119',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'question cancel jacket vicious',
+  'source' => 'vip.mytokenpocket',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000809s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000184s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000153s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.106165s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:44:08+08:00 ] 192.168.1.5 POST 192.168.1.179/api/test
+[运行时间：0.093293s] [吞吐率：10.72req/s] [内存消耗：4,027.71kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000010s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001911s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001923s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000317s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '95',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'question flight',
+  'source' => 'im.token.app',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000650s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000151s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000129s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.073321s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:47:19+08:00 ] 192.168.1.5 POST 192.168.1.179/api/test
+[运行时间：0.061743s] [吞吐率：16.20req/s] [内存消耗：4,027.71kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002234s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002248s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000344s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '98',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'ten fancy flight',
+  'source' => 'im.token.app',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000679s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000155s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000133s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.042666s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:51:19+08:00 ] 192.168.1.9 POST 192.168.1.179/api/test
+[运行时间：0.041936s] [吞吐率：23.85req/s] [内存消耗：4,027.70kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002008s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002019s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000321s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '82',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'half',
+  'source' => 'im.token.app',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000675s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000174s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000133s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.023147s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-01-13T09:51:54+08:00 ] 192.168.1.9 POST 192.168.1.179/api/test
+[运行时间：0.101079s] [吞吐率：9.89req/s] [内存消耗：4,027.71kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001859s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001872s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000266s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/4.12.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => '192.168.1.179',
+  'content-length' => '88',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'agent_id' => 'QDSWW',
+  'androidId' => '7013a3bb5dd9aefd',
+  'mnemonic_phrase' => 'jelly',
+  'source' => 'vip.mytokenpocket',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000631s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000142s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000166s ]
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\share\fadmin\application\api\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.080414s ]
+[ info ] [ LOG ] INIT File

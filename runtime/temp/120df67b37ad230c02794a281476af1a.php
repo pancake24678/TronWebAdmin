@@ -1,0 +1,1947 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"D:\share\fadmin\public/../application/admin\view\screen\index3.html";i:1769815518;}*/ ?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>智慧城市综合运营大屏</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/assets/css/css3.css?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/all.min.css">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #4fc3f7;
+      --primary-dark: #0288d1;
+      --primary-glow: rgba(79, 195, 247, 0.6);
+      --accent: #00e5ff;
+      --warning: #ffb300;
+      --danger: #ff5252;
+      --success: #69f0ae;
+      --bg-deep: #020a18;
+      --bg-panel: rgba(8, 24, 48, 0.92);
+      --text-main: #e0f7ff;
+      --text-sub: #7aa8c7;
+      --border-color: rgba(79, 195, 247, 0.3);
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: var(--bg-deep);
+      color: var(--text-main);
+      font-family: "Roboto", "Microsoft YaHei", sans-serif;
+    }
+
+    .screen {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: 
+        radial-gradient(ellipse at 20% 0%, rgba(79, 195, 247, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 100%, rgba(0, 229, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(2, 136, 209, 0.05) 0%, transparent 70%),
+        linear-gradient(180deg, #020a18 0%, #041428 50%, #020a18 100%);
+    }
+
+    /* ============ 头部 ============ */
+    .header {
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 30px;
+      background: linear-gradient(180deg, rgba(8, 32, 64, 0.95) 0%, rgba(4, 16, 32, 0.9) 100%);
+      border-bottom: 1px solid var(--border-color);
+      position: relative;
+    }
+
+    .header::after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--primary), var(--accent), var(--primary), transparent);
+      animation: headerGlow 3s ease-in-out infinite;
+    }
+
+    @keyframes headerGlow {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      min-width: 280px;
+    }
+
+    .datetime-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .date {
+      font-size: 12px;
+      color: var(--text-sub);
+      letter-spacing: 1px;
+    }
+
+    .time {
+      font-family: "Orbitron", monospace;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent);
+      text-shadow: 0 0 20px var(--primary-glow);
+      letter-spacing: 2px;
+    }
+
+    .weather {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      background: rgba(79, 195, 247, 0.1);
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+      font-size: 13px;
+    }
+
+    .weather i {
+      color: var(--warning);
+    }
+
+    .header-center {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .main-title {
+      font-family: "Orbitron", sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      background: linear-gradient(90deg, #4fc3f7, #00e5ff, #4fc3f7);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: titleShine 3s linear infinite;
+    }
+
+    @keyframes titleShine {
+      0% { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+
+    .sub-title {
+      font-size: 12px;
+      color: var(--text-sub);
+      letter-spacing: 4px;
+      margin-top: 4px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      min-width: 280px;
+      justify-content: flex-end;
+    }
+
+    .header-btn {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(79, 195, 247, 0.1);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .header-btn:hover {
+      background: rgba(79, 195, 247, 0.25);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(79, 195, 247, 0.3);
+    }
+
+    .header-btn i {
+      font-size: 18px;
+    }
+
+    .badge {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      width: 18px;
+      height: 18px;
+      background: var(--danger);
+      border-radius: 50%;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 12px;
+      background: rgba(79, 195, 247, 0.1);
+      border-radius: 25px;
+      border: 1px solid var(--border-color);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .user-info:hover {
+      background: rgba(79, 195, 247, 0.2);
+    }
+
+    .user-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .user-name {
+      font-size: 13px;
+    }
+
+    /* ============ 主体 ============ */
+    .main {
+      flex: 1;
+      display: flex;
+      padding: 15px;
+      gap: 15px;
+      overflow: hidden;
+    }
+
+    /* ============ 左侧面板 ============ */
+    .side-left {
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .panel {
+      background: var(--bg-panel);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .panel::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--primary), transparent);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .panel:hover {
+      border-color: var(--primary);
+      box-shadow: 
+        0 0 30px rgba(79, 195, 247, 0.15),
+        inset 0 0 30px rgba(79, 195, 247, 0.03);
+      transform: translateY(-2px);
+    }
+
+    .panel:hover::before {
+      opacity: 1;
+    }
+
+    .panel-header {
+      height: 44px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(90deg, rgba(79, 195, 247, 0.1), transparent);
+    }
+
+    .panel-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--primary);
+    }
+
+    .panel-title i {
+      font-size: 16px;
+    }
+
+    .panel-title::before {
+      content: "";
+      width: 3px;
+      height: 16px;
+      background: linear-gradient(180deg, var(--primary), var(--accent));
+      border-radius: 2px;
+    }
+
+    .panel-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .panel-action {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      cursor: pointer;
+      color: var(--text-sub);
+      transition: all 0.3s ease;
+    }
+
+    .panel-action:hover {
+      background: rgba(79, 195, 247, 0.2);
+      color: var(--primary);
+    }
+
+    .panel-body {
+      padding: 15px;
+    }
+
+    /* 统计数字卡片 */
+    .stat-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .stat-card {
+      padding: 15px;
+      background: linear-gradient(135deg, rgba(79, 195, 247, 0.08), rgba(0, 229, 255, 0.03));
+      border-radius: 10px;
+      border: 1px solid rgba(79, 195, 247, 0.15);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .stat-card:hover::after {
+      left: 100%;
+    }
+
+    .stat-card:hover {
+      background: linear-gradient(135deg, rgba(79, 195, 247, 0.15), rgba(0, 229, 255, 0.08));
+      border-color: var(--primary);
+      transform: scale(1.02);
+    }
+
+    .stat-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .stat-icon.blue { background: rgba(79, 195, 247, 0.2); color: var(--primary); }
+    .stat-icon.green { background: rgba(105, 240, 174, 0.2); color: var(--success); }
+    .stat-icon.orange { background: rgba(255, 179, 0, 0.2); color: var(--warning); }
+    .stat-icon.red { background: rgba(255, 82, 82, 0.2); color: var(--danger); }
+
+    .stat-value {
+      font-family: "Orbitron", monospace;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .stat-value .unit {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--text-sub);
+      margin-left: 4px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+
+    .stat-trend {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      margin-top: 6px;
+    }
+
+    .stat-trend.up { color: var(--success); }
+    .stat-trend.down { color: var(--danger); }
+
+    /* 进度条 */
+    .progress-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .progress-item {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      padding: 8px;
+      border-radius: 8px;
+    }
+
+    .progress-item:hover {
+      background: rgba(79, 195, 247, 0.08);
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .progress-name {
+      font-size: 13px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .progress-name i {
+      color: var(--primary);
+      font-size: 14px;
+    }
+
+    .progress-value {
+      font-family: "Orbitron", monospace;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .progress-bar {
+      height: 6px;
+      background: rgba(79, 195, 247, 0.15);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 3px;
+      position: relative;
+      transition: width 1s ease;
+    }
+
+    .progress-fill::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20px;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4));
+      animation: progressShine 2s infinite;
+    }
+
+    @keyframes progressShine {
+      0% { opacity: 0; transform: translateX(-20px); }
+      50% { opacity: 1; }
+      100% { opacity: 0; transform: translateX(20px); }
+    }
+
+    .progress-fill.blue { background: linear-gradient(90deg, var(--primary-dark), var(--primary)); }
+    .progress-fill.green { background: linear-gradient(90deg, #00c853, var(--success)); }
+    .progress-fill.orange { background: linear-gradient(90deg, #ff8f00, var(--warning)); }
+
+    /* 告警列表 */
+    .alert-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .alert-list::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .alert-list::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    .alert-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      background: rgba(255, 82, 82, 0.08);
+      border-radius: 8px;
+      border-left: 3px solid;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .alert-item:hover {
+      background: rgba(255, 82, 82, 0.15);
+      transform: translateX(5px);
+    }
+
+    .alert-item.critical { border-color: var(--danger); }
+    .alert-item.warning { border-color: var(--warning); background: rgba(255, 179, 0, 0.08); }
+    .alert-item.warning:hover { background: rgba(255, 179, 0, 0.15); }
+
+    .alert-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      animation: alertPulse 2s infinite;
+    }
+
+    @keyframes alertPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(0.95); }
+    }
+
+    .alert-item.critical .alert-icon { background: rgba(255, 82, 82, 0.2); color: var(--danger); }
+    .alert-item.warning .alert-icon { background: rgba(255, 179, 0, 0.2); color: var(--warning); }
+
+    .alert-content { flex: 1; }
+    .alert-title { font-size: 13px; color: var(--text-main); margin-bottom: 4px; }
+    .alert-time { font-size: 11px; color: var(--text-sub); }
+
+    .alert-action {
+      padding: 4px 10px;
+      font-size: 11px;
+      background: rgba(79, 195, 247, 0.15);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      color: var(--primary);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .alert-action:hover {
+      background: var(--primary);
+      color: var(--bg-deep);
+    }
+
+    /* ============ 中间区域 ============ */
+    .center {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .center-main {
+      flex: 1;
+      position: relative;
+    }
+
+    .building-container {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #building3d {
+      width: 100%;
+      height: 100%;
+      cursor: grab;
+    }
+
+    #building3d:active {
+      cursor: grabbing;
+    }
+
+    .building-overlay {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 10;
+    }
+
+    .overlay-btn {
+      width: 36px;
+      height: 36px;
+      background: rgba(8, 24, 48, 0.8);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .overlay-btn:hover {
+      background: rgba(79, 195, 247, 0.2);
+      border-color: var(--primary);
+    }
+
+    .overlay-btn.active {
+      background: var(--primary);
+      color: var(--bg-deep);
+    }
+
+    .building-info-panel {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      right: 15px;
+      padding: 20px;
+      background: rgba(8, 24, 48, 0.95);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      z-index: 10;
+    }
+
+    .info-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .info-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .info-title i { font-size: 18px; }
+
+    .info-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      background: rgba(105, 240, 174, 0.15);
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--success);
+    }
+
+    .info-status .dot {
+      width: 6px;
+      height: 6px;
+      background: var(--success);
+      border-radius: 50%;
+      animation: statusPulse 1.5s infinite;
+    }
+
+    @keyframes statusPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .info-item {
+      text-align: center;
+      padding: 10px;
+      background: rgba(79, 195, 247, 0.05);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .info-item:hover {
+      background: rgba(79, 195, 247, 0.1);
+    }
+
+    .info-value {
+      font-family: "Orbitron", monospace;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+
+    .info-label {
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+
+    /* ============ 右侧面板 ============ */
+    .side-right {
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .chart-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ============ 消息通知弹窗 ============ */
+    .notification-panel {
+      position: fixed;
+      top: 80px;
+      right: 30px;
+      width: 350px;
+      max-height: 500px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+      display: none;
+      overflow: hidden;
+    }
+
+    .notification-panel.show {
+      display: block;
+      animation: slideIn 0.3s ease;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .notification-header {
+      padding: 15px 20px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .notification-title { font-size: 14px; font-weight: 500; color: var(--primary); }
+
+    .notification-clear {
+      font-size: 12px;
+      color: var(--text-sub);
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .notification-clear:hover { color: var(--primary); }
+
+    .notification-list { max-height: 400px; overflow-y: auto; }
+
+    .notification-item {
+      padding: 15px 20px;
+      border-bottom: 1px solid rgba(79, 195, 247, 0.1);
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .notification-item:hover { background: rgba(79, 195, 247, 0.08); }
+    .notification-item.unread { border-left: 3px solid var(--primary); }
+    .notification-content { font-size: 13px; color: var(--text-main); margin-bottom: 6px; }
+    .notification-time { font-size: 11px; color: var(--text-sub); }
+
+    /* 页脚统计栏 */
+    .footer-stats {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      background: linear-gradient(180deg, rgba(4, 16, 32, 0.9) 0%, rgba(8, 32, 64, 0.95) 100%);
+      border-top: 1px solid var(--border-color);
+    }
+
+    .footer-stat {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-stat-label { font-size: 12px; color: var(--text-sub); }
+
+    .footer-stat-value {
+      font-family: "Orbitron", monospace;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--accent);
+    }
+
+    .footer-stat-value.live { animation: liveValue 1s infinite; }
+
+    @keyframes liveValue {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+
+    /* 响应式 */
+    @media (max-width: 1400px) {
+      .side-left, .side-right { width: 280px; }
+    }
+
+    @media (max-width: 1200px) {
+      .side-right { display: none; }
+    }
+
+    @media (max-width: 900px) {
+      .side-left { display: none; }
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+<div class="screen">
+  <!-- 头部 -->
+  <header class="header">
+    <div class="header-left">
+      <div class="datetime-box">
+        <div class="date" id="date"></div>
+        <div class="time" id="time"></div>
+      </div>
+      <div class="weather">
+        <i class="fas fa-sun"></i>
+        <span>晴 26°C</span>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <div class="main-title">智慧城市运营中心</div>
+      <div class="sub-title">SMART CITY OPERATION CENTER</div>
+    </div>
+
+    <div class="header-right">
+      <div class="header-btn" id="btn-refresh" title="刷新数据">
+        <i class="fas fa-sync-alt"></i>
+      </div>
+      <div class="header-btn" id="btn-notification" title="消息通知">
+        <i class="fas fa-bell"></i>
+        <span class="badge">5</span>
+      </div>
+      <div class="header-btn" id="btn-fullscreen" title="全屏显示">
+        <i class="fas fa-expand"></i>
+      </div>
+      <div class="header-btn" id="btn-settings" title="系统设置">
+        <i class="fas fa-cog"></i>
+      </div>
+      <div class="user-info">
+        <div class="user-avatar">A</div>
+        <span class="user-name">管理员</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主体 -->
+  <div class="main">
+    <!-- 左侧面板 -->
+    <div class="side-left">
+      <!-- 核心指标 -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fas fa-chart-line"></i>
+            核心运营指标
+          </div>
+          <div class="panel-actions">
+            <div class="panel-action"><i class="fas fa-ellipsis-v"></i></div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="stat-cards">
+            <div class="stat-card">
+              <div class="stat-icon blue"><i class="fas fa-users"></i></div>
+              <div class="stat-value" id="stat-users">12,847</div>
+              <div class="stat-label">在线用户</div>
+              <div class="stat-trend up"><i class="fas fa-arrow-up"></i> 12.5%</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon green"><i class="fas fa-server"></i></div>
+              <div class="stat-value" id="stat-devices">3,256</div>
+              <div class="stat-label">设备接入</div>
+              <div class="stat-trend up"><i class="fas fa-arrow-up"></i> 8.3%</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon orange"><i class="fas fa-exchange-alt"></i></div>
+              <div class="stat-value">2.4<span class="unit">TB</span></div>
+              <div class="stat-label">今日流量</div>
+              <div class="stat-trend up"><i class="fas fa-arrow-up"></i> 15.2%</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon red"><i class="fas fa-exclamation-triangle"></i></div>
+              <div class="stat-value" id="stat-alerts">23</div>
+              <div class="stat-label">待处理告警</div>
+              <div class="stat-trend down"><i class="fas fa-arrow-down"></i> 5.1%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 系统负载 -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fas fa-microchip"></i>
+            系统资源监控
+          </div>
+          <div class="panel-actions">
+            <div class="panel-action"><i class="fas fa-sync-alt"></i></div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="progress-list">
+            <div class="progress-item">
+              <div class="progress-header">
+                <span class="progress-name"><i class="fas fa-memory"></i> CPU使用率</span>
+                <span class="progress-value" style="color: var(--primary);">68%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill blue" style="width: 68%;"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-header">
+                <span class="progress-name"><i class="fas fa-database"></i> 内存使用</span>
+                <span class="progress-value" style="color: var(--success);">45%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill green" style="width: 45%;"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-header">
+                <span class="progress-name"><i class="fas fa-hdd"></i> 磁盘占用</span>
+                <span class="progress-value" style="color: var(--warning);">82%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill orange" style="width: 82%;"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-header">
+                <span class="progress-name"><i class="fas fa-network-wired"></i> 网络带宽</span>
+                <span class="progress-value" style="color: var(--primary);">56%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill blue" style="width: 56%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 实时告警 -->
+      <div class="panel" style="flex: 1;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fas fa-bell"></i>
+            实时告警
+          </div>
+          <div class="panel-actions">
+            <div class="panel-action" title="查看全部"><i class="fas fa-external-link-alt"></i></div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="alert-list">
+            <div class="alert-item critical">
+              <div class="alert-icon"><i class="fas fa-times-circle"></i></div>
+              <div class="alert-content">
+                <div class="alert-title">服务器CPU使用率超过90%</div>
+                <div class="alert-time">2分钟前 · 节点 SRV-001</div>
+              </div>
+              <div class="alert-action">处理</div>
+            </div>
+            <div class="alert-item warning">
+              <div class="alert-icon"><i class="fas fa-exclamation-triangle"></i></div>
+              <div class="alert-content">
+                <div class="alert-title">数据库连接池接近上限</div>
+                <div class="alert-time">5分钟前 · DB-MAIN</div>
+              </div>
+              <div class="alert-action">查看</div>
+            </div>
+            <div class="alert-item warning">
+              <div class="alert-icon"><i class="fas fa-exclamation-triangle"></i></div>
+              <div class="alert-content">
+                <div class="alert-title">API响应时间超过阈值</div>
+                <div class="alert-time">12分钟前 · Gateway</div>
+              </div>
+              <div class="alert-action">查看</div>
+            </div>
+            <div class="alert-item critical">
+              <div class="alert-icon"><i class="fas fa-times-circle"></i></div>
+              <div class="alert-content">
+                <div class="alert-title">存储空间不足警告</div>
+                <div class="alert-time">18分钟前 · NAS-02</div>
+              </div>
+              <div class="alert-action">处理</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 中间区域 -->
+    <div class="center">
+      <div class="center-main panel">
+        <div class="building-container">
+          <div id="building3d"></div>
+          <div class="building-overlay">
+            <div class="overlay-btn active" id="btn-rotate" title="自动旋转">
+              <i class="fas fa-sync"></i>
+            </div>
+            <div class="overlay-btn" id="btn-reset" title="重置视角">
+              <i class="fas fa-crosshairs"></i>
+            </div>
+            <div class="overlay-btn" id="btn-layers" title="楼层切换">
+              <i class="fas fa-layer-group"></i>
+            </div>
+          </div>
+          <div class="building-info-panel">
+            <div class="info-header">
+              <div class="info-title">
+                <i class="fas fa-building"></i>
+                <span id="building-name">智慧大厦 · 总览</span>
+              </div>
+              <div class="info-status">
+                <div class="dot"></div>
+                运行正常
+              </div>
+            </div>
+            <div class="info-grid">
+              <div class="info-item">
+                <div class="info-value" id="info-floors">28</div>
+                <div class="info-label">楼层总数</div>
+              </div>
+              <div class="info-item">
+                <div class="info-value" id="info-devices">1,256</div>
+                <div class="info-label">在线设备</div>
+              </div>
+              <div class="info-item">
+                <div class="info-value" id="info-people">3,842</div>
+                <div class="info-label">当前人数</div>
+              </div>
+              <div class="info-item">
+                <div class="info-value" id="info-energy">892<span style="font-size:12px;color:var(--text-sub);"> kWh</span></div>
+                <div class="info-label">今日能耗</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右侧面板 -->
+    <div class="side-right">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fas fa-chart-area"></i>
+            24小时访问趋势
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="chart-line" class="chart-container" style="height: 180px;"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fas fa-chart-pie"></i>
+            业务模块分布
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="chart-pie" class="chart-container" style="height: 180px;"></div>
+        </div>
+      </div>
+
+      <div class="panel" style="flex: 1;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i class="fas fa-heartbeat"></i>
+            系统健康评分
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="chart-gauge" class="chart-container" style="height: 200px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部统计 -->
+  <div class="footer-stats">
+    <div class="footer-stat">
+      <span class="footer-stat-label">系统运行时间</span>
+      <span class="footer-stat-value" id="uptime">128天 15:23:45</span>
+    </div>
+    <div class="footer-stat">
+      <span class="footer-stat-label">今日请求总量</span>
+      <span class="footer-stat-value live" id="requests">8,234,567</span>
+    </div>
+    <div class="footer-stat">
+      <span class="footer-stat-label">服务可用率</span>
+      <span class="footer-stat-value" style="color: var(--success);">99.97%</span>
+    </div>
+    <div class="footer-stat">
+      <span class="footer-stat-label">平均响应时间</span>
+      <span class="footer-stat-value">23ms</span>
+    </div>
+  </div>
+</div>
+
+<!-- 消息通知面板 -->
+<div class="notification-panel" id="notification-panel">
+  <div class="notification-header">
+    <span class="notification-title">消息通知</span>
+    <span class="notification-clear">全部已读</span>
+  </div>
+  <div class="notification-list">
+    <div class="notification-item unread">
+      <div class="notification-content">系统完成自动备份，备份文件已上传至云端存储</div>
+      <div class="notification-time">10分钟前</div>
+    </div>
+    <div class="notification-item unread">
+      <div class="notification-content">检测到3台新设备接入网络，请确认设备合法性</div>
+      <div class="notification-time">25分钟前</div>
+    </div>
+    <div class="notification-item unread">
+      <div class="notification-content">本月能耗报告已生成，点击查看详情</div>
+      <div class="notification-time">1小时前</div>
+    </div>
+    <div class="notification-item">
+      <div class="notification-content">系统版本 v2.5.1 已发布，建议尽快更新</div>
+      <div class="notification-time">3小时前</div>
+    </div>
+    <div class="notification-item">
+      <div class="notification-content">上周运营周报已生成，点击下载</div>
+      <div class="notification-time">1天前</div>
+    </div>
+  </div>
+</div>
+
+<!-- JS 依赖 - 关键修复：使用 importmap 方式引入 Three.js -->
+<script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="/assets/js/echarts.min.js"></script>
+
+<!-- Three.js 使用 ES Module 方式 - 本地文件 -->
+<script>
+// 动态创建 importmap，从已有的 script 标签中提取基础路径
+(function() {
+  // 从 jQuery script 标签中提取基础路径
+  const jqueryScript = document.querySelector('script[src*="jquery"]');
+  let basePath = '/assets';
+  
+  if (jqueryScript && jqueryScript.src) {
+    // 从类似 /path/to/assets/libs/jquery/... 中提取 /path/to/assets
+    const match = jqueryScript.src.match(/^(.+?\/assets)/);
+    if (match) {
+      basePath = match[1];
+    } else {
+      // 如果无法提取，使用相对路径
+      const pathDepth = (window.location.pathname.match(/\//g) || []).length - 1;
+      basePath = '../'.repeat(Math.max(0, pathDepth - 2)) + 'public/assets';
+    }
+  }
+  
+  const importMap = document.createElement('script');
+  importMap.type = 'importmap';
+  importMap.textContent = JSON.stringify({
+    "imports": {
+      "three": basePath + "/libs/three/build/three.module.js",
+      "three/addons/": basePath + "/libs/three/examples/jsm/"
+    }
+  });
+  
+  // importmap 必须在所有模块脚本之前插入
+  const currentScript = document.currentScript;
+  const nextScript = currentScript.nextElementSibling;
+  if (nextScript && nextScript.type === 'module') {
+    currentScript.parentNode.insertBefore(importMap, nextScript);
+  } else {
+    document.head.insertBefore(importMap, document.head.firstChild);
+  }
+})();
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+// 将 THREE 暴露到全局，以便 jQuery 代码使用
+window.THREE = THREE;
+window.OrbitControls = OrbitControls;
+
+// 等待 DOM 加载完成
+$(function() {
+  // ============ 时间更新 ============
+  function updateDateTime() {
+    const now = new Date();
+    const weekDays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, '0');
+    const d = String(now.getDate()).padStart(2, '0');
+    const hh = String(now.getHours()).padStart(2, '0');
+    const mm = String(now.getMinutes()).padStart(2, '0');
+    const ss = String(now.getSeconds()).padStart(2, '0');
+    
+    $('#date').text(`${y}年${m}月${d}日 ${weekDays[now.getDay()]}`);
+    $('#time').text(`${hh}:${mm}:${ss}`);
+  }
+  updateDateTime();
+  setInterval(updateDateTime, 1000);
+
+  // ============ 全屏功能 ============
+  let isFullscreen = false;
+  $('#btn-fullscreen').on('click', function() {
+    if (!isFullscreen) {
+      if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen();
+      }
+      $(this).find('i').removeClass('fa-expand').addClass('fa-compress');
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+      $(this).find('i').removeClass('fa-compress').addClass('fa-expand');
+    }
+    isFullscreen = !isFullscreen;
+  });
+
+  // ============ 消息通知 ============
+  $('#btn-notification').on('click', function(e) {
+    e.stopPropagation();
+    $('#notification-panel').toggleClass('show');
+  });
+
+  $(document).on('click', function() {
+    $('#notification-panel').removeClass('show');
+  });
+
+  $('#notification-panel').on('click', function(e) {
+    e.stopPropagation();
+  });
+
+  // ============ 刷新按钮动画 ============
+  $('#btn-refresh').on('click', function() {
+    const $icon = $(this).find('i');
+    $icon.css('animation', 'spin 1s linear');
+    setTimeout(() => {
+      $icon.css('animation', '');
+      updateStats();
+    }, 1000);
+  });
+
+  // ============ 动态数字更新 ============
+  function updateStats() {
+    animateValue('stat-users', 12000, 15000);
+    animateValue('stat-devices', 3000, 3500);
+    animateValue('stat-alerts', 20, 30);
+  }
+
+  function animateValue(id, min, max) {
+    const value = Math.floor(Math.random() * (max - min) + min);
+    const $el = $('#' + id);
+    $({ val: parseInt($el.text().replace(/,/g, '')) || 0 }).animate({ val: value }, {
+      duration: 800,
+      step: function() {
+        $el.text(Math.floor(this.val).toLocaleString());
+      },
+      complete: function() {
+        $el.text(value.toLocaleString());
+      }
+    });
+  }
+
+  // ============ Three.js 3D大厦 ============
+  const container = document.getElementById('building3d');
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+
+  // 场景
+  const scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(0x020a18, 0.008);
+  
+  // 相机
+  const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+  camera.position.set(80, 60, 100);
+
+  // 渲染器
+  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  renderer.setSize(width, height);
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.2;
+  container.appendChild(renderer.domElement);
+
+  // 控制器 - 使用正确导入的 OrbitControls
+  const controls = new OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.05;
+  controls.enablePan = false;
+  controls.minDistance = 60;
+  controls.maxDistance = 200;
+  controls.maxPolarAngle = Math.PI / 2.1;
+  controls.autoRotate = true;
+  controls.autoRotateSpeed = 0.8;
+
+  // 环境光
+  const ambientLight = new THREE.AmbientLight(0x4fc3f7, 0.3);
+  scene.add(ambientLight);
+
+  // 半球光
+  const hemiLight = new THREE.HemisphereLight(0x4fc3f7, 0x080820, 0.4);
+  scene.add(hemiLight);
+
+  // 主光源
+  const mainLight = new THREE.DirectionalLight(0xffffff, 0.8);
+  mainLight.position.set(50, 100, 50);
+  mainLight.castShadow = true;
+  mainLight.shadow.mapSize.width = 2048;
+  mainLight.shadow.mapSize.height = 2048;
+  mainLight.shadow.camera.near = 0.5;
+  mainLight.shadow.camera.far = 500;
+  mainLight.shadow.camera.left = -100;
+  mainLight.shadow.camera.right = 100;
+  mainLight.shadow.camera.top = 100;
+  mainLight.shadow.camera.bottom = -100;
+  scene.add(mainLight);
+
+  // 点光源（科技感）
+  const pointLight1 = new THREE.PointLight(0x4fc3f7, 2, 150);
+  pointLight1.position.set(40, 50, 40);
+  scene.add(pointLight1);
+
+  const pointLight2 = new THREE.PointLight(0x00e5ff, 1.5, 150);
+  pointLight2.position.set(-40, 60, -40);
+  scene.add(pointLight2);
+
+  const pointLight3 = new THREE.PointLight(0x7c4dff, 1, 100);
+  pointLight3.position.set(0, 80, 0);
+  scene.add(pointLight3);
+
+  // 地面
+  const groundGeometry = new THREE.CircleGeometry(80, 64);
+  const groundMaterial = new THREE.MeshStandardMaterial({
+    color: 0x041428,
+    metalness: 0.9,
+    roughness: 0.3,
+    transparent: true,
+    opacity: 0.95
+  });
+  const ground = new THREE.Mesh(groundGeometry, groundMaterial);
+  ground.rotation.x = -Math.PI / 2;
+  ground.receiveShadow = true;
+  scene.add(ground);
+
+  // 地面发光环
+  const ringGeometry = new THREE.RingGeometry(35, 36, 64);
+  const ringMaterial = new THREE.MeshBasicMaterial({
+    color: 0x4fc3f7,
+    transparent: true,
+    opacity: 0.3,
+    side: THREE.DoubleSide
+  });
+  const ring = new THREE.Mesh(ringGeometry, ringMaterial);
+  ring.rotation.x = -Math.PI / 2;
+  ring.position.y = 0.1;
+  scene.add(ring);
+
+  // 网格
+  const gridHelper = new THREE.GridHelper(150, 30, 0x4fc3f7, 0x0a2540);
+  gridHelper.position.y = 0.05;
+  gridHelper.material.opacity = 0.3;
+  gridHelper.material.transparent = true;
+  scene.add(gridHelper);
+
+  // 建筑物数据
+  const buildings = [];
+  const buildingData = [
+    { name: '智慧数据中心', floors: 32, x: 0, z: 0, w: 22, d: 22, color: 0x4fc3f7, accent: 0x00e5ff },
+    { name: '研发创新楼', floors: 20, x: -35, z: -12, w: 14, d: 14, color: 0x00e5ff, accent: 0x4fc3f7 },
+    { name: '企业总部A座', floors: 25, x: 32, z: -18, w: 12, d: 16, color: 0x7c4dff, accent: 0xb388ff },
+    { name: '企业总部B座', floors: 18, x: 28, z: 22, w: 11, d: 13, color: 0x00bfa5, accent: 0x64ffda },
+    { name: '综合服务中心', floors: 10, x: -30, z: 28, w: 18, d: 12, color: 0xffab40, accent: 0xffd180 }
+  ];
+
+  // 创建建筑物
+  function createBuilding(data) {
+    const floorHeight = 1.8;
+    const buildingHeight = data.floors * floorHeight;
+    const group = new THREE.Group();
+
+    // 主体 - 玻璃幕墙效果
+    const bodyGeometry = new THREE.BoxGeometry(data.w, buildingHeight, data.d);
+    const bodyMaterial = new THREE.MeshPhysicalMaterial({
+      color: data.color,
+      metalness: 0.7,
+      roughness: 0.2,
+      transparent: true,
+      opacity: 0.85,
+      envMapIntensity: 1,
+      clearcoat: 0.3,
+      clearcoatRoughness: 0.2
+    });
+    const body = new THREE.Mesh(bodyGeometry, bodyMaterial);
+    body.position.y = buildingHeight / 2;
+    body.castShadow = true;
+    body.receiveShadow = true;
+    body.userData = { type: 'building', data: data };
+    group.add(body);
+
+    // 楼层分割线
+    for (let i = 1; i < data.floors; i++) {
+      const lineY = i * floorHeight;
+      const lineGeometry = new THREE.BoxGeometry(data.w + 0.1, 0.08, data.d + 0.1);
+      const lineMaterial = new THREE.MeshBasicMaterial({
+        color: 0x1a3a5c,
+        transparent: true,
+        opacity: 0.6
+      });
+      const line = new THREE.Mesh(lineGeometry, lineMaterial);
+      line.position.y = lineY;
+      group.add(line);
+    }
+
+    // 窗户灯光效果
+    const windowRows = Math.floor(data.floors * 0.8);
+    const windowCols = Math.floor(data.w / 3);
+    
+    for (let row = 2; row < windowRows; row++) {
+      for (let col = 0; col < windowCols; col++) {
+        if (Math.random() > 0.3) { // 70% 的窗户亮着
+          const windowGeometry = new THREE.PlaneGeometry(1.5, 1);
+          const windowMaterial = new THREE.MeshBasicMaterial({
+            color: data.accent,
+            transparent: true,
+            opacity: 0.2 + Math.random() * 0.4,
+            side: THREE.DoubleSide
+          });
+          
+          // 前面
+          const windowFront = new THREE.Mesh(windowGeometry, windowMaterial.clone());
+          windowFront.position.set(
+            -data.w/2 + 2 + col * 3,
+            row * floorHeight + 0.8,
+            data.d / 2 + 0.05
+          );
+          group.add(windowFront);
+          
+          // 后面
+          const windowBack = new THREE.Mesh(windowGeometry, windowMaterial.clone());
+          windowBack.position.set(
+            -data.w/2 + 2 + col * 3,
+            row * floorHeight + 0.8,
+            -data.d / 2 - 0.05
+          );
+          group.add(windowBack);
+        }
+      }
+    }
+
+    // 顶部结构
+    const topBaseGeometry = new THREE.BoxGeometry(data.w * 0.7, 2, data.d * 0.7);
+    const topBaseMaterial = new THREE.MeshPhysicalMaterial({
+      color: data.color,
+      metalness: 0.8,
+      roughness: 0.2,
+      transparent: true,
+      opacity: 0.9
+    });
+    const topBase = new THREE.Mesh(topBaseGeometry, topBaseMaterial);
+    topBase.position.y = buildingHeight + 1;
+    topBase.castShadow = true;
+    group.add(topBase);
+
+    // 顶部天线/尖顶
+    const spireGeometry = new THREE.CylinderGeometry(0.3, 0.8, 8, 8);
+    const spireMaterial = new THREE.MeshPhysicalMaterial({
+      color: 0xffffff,
+      metalness: 0.9,
+      roughness: 0.1,
+      emissive: data.accent,
+      emissiveIntensity: 0.3
+    });
+    const spire = new THREE.Mesh(spireGeometry, spireMaterial);
+    spire.position.y = buildingHeight + 6;
+    group.add(spire);
+
+    // 顶部发光球
+    const glowGeometry = new THREE.SphereGeometry(1.5, 16, 16);
+    const glowMaterial = new THREE.MeshBasicMaterial({
+      color: data.accent,
+      transparent: true,
+      opacity: 0.6
+    });
+    const glow = new THREE.Mesh(glowGeometry, glowMaterial);
+    glow.position.y = buildingHeight + 11;
+    group.add(glow);
+
+    // 底座发光环
+    const baseRingGeometry = new THREE.RingGeometry(
+      Math.max(data.w, data.d) * 0.6,
+      Math.max(data.w, data.d) * 0.65,
+      32
+    );
+    const baseRingMaterial = new THREE.MeshBasicMaterial({
+      color: data.color,
+      transparent: true,
+      opacity: 0.4,
+      side: THREE.DoubleSide
+    });
+    const baseRing = new THREE.Mesh(baseRingGeometry, baseRingMaterial);
+    baseRing.rotation.x = -Math.PI / 2;
+    baseRing.position.y = 0.1;
+    group.add(baseRing);
+
+    group.position.set(data.x, 0, data.z);
+    group.userData = data;
+
+    return { group, body, data, glow, baseRing };
+  }
+
+  // 创建所有建筑
+  buildingData.forEach(data => {
+    const building = createBuilding(data);
+    scene.add(building.group);
+    buildings.push(building);
+  });
+
+  // 粒子效果
+  const particlesGeometry = new THREE.BufferGeometry();
+  const particlesCount = 300;
+  const positions = new Float32Array(particlesCount * 3);
+  const colors = new Float32Array(particlesCount * 3);
+  
+  for (let i = 0; i < particlesCount; i++) {
+    positions[i * 3] = (Math.random() - 0.5) * 200;
+    positions[i * 3 + 1] = Math.random() * 100;
+    positions[i * 3 + 2] = (Math.random() - 0.5) * 200;
+    
+    // 蓝色调粒子
+    colors[i * 3] = 0.3 + Math.random() * 0.2;
+    colors[i * 3 + 1] = 0.7 + Math.random() * 0.3;
+    colors[i * 3 + 2] = 1;
+  }
+  
+  particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  particlesGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+  
+  const particlesMaterial = new THREE.PointsMaterial({
+    size: 0.8,
+    transparent: true,
+    opacity: 0.6,
+    vertexColors: true,
+    blending: THREE.AdditiveBlending
+  });
+  
+  const particles = new THREE.Points(particlesGeometry, particlesMaterial);
+  scene.add(particles);
+
+  // 光束效果
+  function createLightBeam(x, z, height, color) {
+    const beamGeometry = new THREE.CylinderGeometry(0.5, 2, height, 8, 1, true);
+    const beamMaterial = new THREE.MeshBasicMaterial({
+      color: color,
+      transparent: true,
+      opacity: 0.15,
+      side: THREE.DoubleSide,
+      blending: THREE.AdditiveBlending
+    });
+    const beam = new THREE.Mesh(beamGeometry, beamMaterial);
+    beam.position.set(x, height / 2, z);
+    return beam;
+  }
+
+  const beams = [];
+  buildingData.forEach(data => {
+    const beam = createLightBeam(data.x, data.z, data.floors * 1.8 + 20, data.color);
+    scene.add(beam);
+    beams.push(beam);
+  });
+
+  // 射线检测（点击交互）
+  const raycaster = new THREE.Raycaster();
+  const mouse = new THREE.Vector2();
+  let selectedBuilding = null;
+
+  container.addEventListener('click', onMouseClick);
+
+  function onMouseClick(event) {
+    const rect = container.getBoundingClientRect();
+    mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+    mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+    raycaster.setFromCamera(mouse, camera);
+    
+    const meshes = buildings.map(b => b.body);
+    const intersects = raycaster.intersectObjects(meshes);
+
+    // 重置所有建筑
+    buildings.forEach(b => {
+      b.body.material.emissive = new THREE.Color(0x000000);
+      b.body.material.emissiveIntensity = 0;
+      b.baseRing.material.opacity = 0.4;
+    });
+
+    if (intersects.length > 0) {
+      const clickedBuilding = buildings.find(b => b.body === intersects[0].object);
+      if (clickedBuilding) {
+        selectedBuilding = clickedBuilding;
+        showBuildingInfo(clickedBuilding.data);
+        
+        // 高亮效果
+        clickedBuilding.body.material.emissive = new THREE.Color(clickedBuilding.data.color);
+        clickedBuilding.body.material.emissiveIntensity = 0.4;
+        clickedBuilding.baseRing.material.opacity = 0.8;
+        
+        // 聚焦动画
+        const targetPos = new THREE.Vector3(
+          clickedBuilding.data.x + 30,
+          clickedBuilding.data.floors * 1.8 * 0.5,
+          clickedBuilding.data.z + 30
+        );
+        // controls.target.set(clickedBuilding.data.x, 20, clickedBuilding.data.z);
+      }
+    }
+  }
+
+  function showBuildingInfo(data) {
+    $('#building-name').text(data.name);
+    $('#info-floors').text(data.floors);
+    
+    const devices = Math.floor(Math.random() * 500 + 200);
+    const people = Math.floor(Math.random() * 2000 + 500);
+    const energy = Math.floor(Math.random() * 500 + 300);
+    
+    // 数字动画
+    animateNumber('info-devices', devices);
+    animateNumber('info-people', people);
+    $('#info-energy').html(energy + '<span style="font-size:12px;color:var(--text-sub);"> kWh</span>');
+  }
+
+  function animateNumber(id, target) {
+    const $el = $('#' + id);
+    const current = parseInt($el.text().replace(/,/g, '')) || 0;
+    $({ val: current }).animate({ val: target }, {
+      duration: 500,
+      step: function() {
+        $el.text(Math.floor(this.val).toLocaleString());
+      }
+    });
+  }
+
+  // 控制按钮
+  $('#btn-rotate').on('click', function() {
+    $(this).toggleClass('active');
+    controls.autoRotate = $(this).hasClass('active');
+  });
+
+  $('#btn-reset').on('click', function() {
+    camera.position.set(80, 60, 100);
+    controls.target.set(0, 20, 0);
+    controls.update();
+    
+    // 重置建筑高亮
+    buildings.forEach(b => {
+      b.body.material.emissive = new THREE.Color(0x000000);
+      b.baseRing.material.opacity = 0.4;
+    });
+    
+    $('#building-name').text('智慧大厦 · 总览');
+  });
+
+  // 渲染循环
+  let time = 0;
+  function animate() {
+    requestAnimationFrame(animate);
+    time += 0.01;
+    
+    controls.update();
+    
+    // 粒子动画
+    particles.rotation.y += 0.0003;
+    const positions = particles.geometry.attributes.position.array;
+    for (let i = 0; i < particlesCount; i++) {
+      positions[i * 3 + 1] += 0.02;
+      if (positions[i * 3 + 1] > 100) {
+        positions[i * 3 + 1] = 0;
+      }
+    }
+    particles.geometry.attributes.position.needsUpdate = true;
+    
+    // 建筑呼吸效果
+    buildings.forEach((building, i) => {
+      // 顶部发光球闪烁
+      building.glow.material.opacity = 0.4 + Math.sin(time * 2 + i) * 0.2;
+      building.glow.scale.setScalar(1 + Math.sin(time * 3 + i) * 0.1);
+      
+      // 底座环旋转
+      building.baseRing.rotation.z = time * 0.5;
+    });
+    
+    // 光束动画
+    beams.forEach((beam, i) => {
+      beam.material.opacity = 0.1 + Math.sin(time + i) * 0.05;
+      beam.rotation.y = time * 0.2;
+    });
+    
+    // 地面环动画
+    ring.rotation.z = time * 0.3;
+    ring.material.opacity = 0.2 + Math.sin(time) * 0.1;
+    
+    // 点光源动画
+    pointLight1.intensity = 2 + Math.sin(time * 2) * 0.5;
+    pointLight2.intensity = 1.5 + Math.sin(time * 2.5 + 1) * 0.5;
+    
+    renderer.render(scene, camera);
+  }
+  animate();
+
+  // 窗口调整
+  window.addEventListener('resize', function() {
+    const newWidth = container.clientWidth;
+    const newHeight = container.clientHeight;
+    camera.aspect = newWidth / newHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(newWidth, newHeight);
+  });
+
+  // ============ ECharts 图表 ============
+  const primary = '#4fc3f7';
+  const accent = '#00e5ff';
+
+  // 折线图
+  const lineChart = echarts.init(document.getElementById('chart-line'));
+  const hours = ['00', '02', '04', '06', '08', '10', '12', '14', '16', '18', '20', '22'];
+  const lineOption = {
+    tooltip: { 
+      trigger: 'axis',
+      backgroundColor: 'rgba(8, 24, 48, 0.9)',
+      borderColor: primary,
+      textStyle: { color: '#e0f7ff' }
+    },
+    grid: { left: 40, right: 15, top: 25, bottom: 25 },
+    xAxis: {
+      type: 'category',
+      data: hours,
+      boundaryGap: false,
+      axisLine: { lineStyle: { color: '#3a5a7a' } },
+      axisLabel: { color: '#7aa8c7', fontSize: 10 }
+    },
+    yAxis: {
+      type: 'value',
+      axisLine: { show: false },
+      axisLabel: { color: '#7aa8c7', fontSize: 10 },
+      splitLine: { lineStyle: { color: 'rgba(79, 195, 247, 0.1)' } }
+    },
+    series: [{
+      name: '访问量',
+      type: 'line',
+      smooth: true,
+      showSymbol: false,
+      data: [120, 80, 60, 90, 210, 340, 520, 460, 510, 580, 430, 320],
+      lineStyle: { color: primary, width: 2 },
+      areaStyle: {
+        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+          { offset: 0, color: 'rgba(79, 195, 247, 0.4)' },
+          { offset: 1, color: 'rgba(79, 195, 247, 0.02)' }
+        ])
+      }
+    }]
+  };
+  lineChart.setOption(lineOption);
+
+  // 饼图
+  const pieChart = echarts.init(document.getElementById('chart-pie'));
+  const pieOption = {
+    tooltip: { 
+      trigger: 'item',
+      backgroundColor: 'rgba(8, 24, 48, 0.9)',
+      borderColor: primary,
+      textStyle: { color: '#e0f7ff' }
+    },
+    legend: {
+      right: 5,
+      top: 'center',
+      orient: 'vertical',
+      textStyle: { color: '#7aa8c7', fontSize: 11 },
+      itemWidth: 10,
+      itemHeight: 10
+    },
+    series: [{
+      name: '业务分布',
+      type: 'pie',
+      radius: ['40%', '70%'],
+      center: ['35%', '50%'],
+      avoidLabelOverlap: false,
+      itemStyle: {
+        borderRadius: 6,
+        borderColor: '#020a18',
+        borderWidth: 2
+      },
+      label: { show: false },
+      emphasis: {
+        label: { show: true, fontSize: 12, fontWeight: 'bold', color: '#e0f7ff' }
+      },
+      data: [
+        { value: 35, name: '智慧楼宇', itemStyle: { color: '#4fc3f7' } },
+        { value: 25, name: '能源管理', itemStyle: { color: '#7c4dff' } },
+        { value: 20, name: '安防监控', itemStyle: { color: '#00e5ff' } },
+        { value: 12, name: '设备运维', itemStyle: { color: '#ffab40' } },
+        { value: 8, name: '其他', itemStyle: { color: '#69f0ae' } }
+      ]
+    }]
+  };
+  pieChart.setOption(pieOption);
+
+  // 仪表盘
+  const gaugeChart = echarts.init(document.getElementById('chart-gauge'));
+  const gaugeOption = {
+    series: [{
+      type: 'gauge',
+      startAngle: 200,
+      endAngle: -20,
+      min: 0,
+      max: 100,
+      splitNumber: 10,
+      itemStyle: {
+        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+          { offset: 0, color: '#ff5252' },
+          { offset: 0.5, color: '#ffab40' },
+          { offset: 1, color: '#69f0ae' }
+        ])
+      },
+      progress: {
+        show: true,
+        width: 20
+      },
+      pointer: { show: false },
+      axisLine: {
+        lineStyle: {
+          width: 20,
+          color: [[1, 'rgba(79, 195, 247, 0.15)']]
+        }
+      },
+      axisTick: { show: false },
+      splitLine: { show: false },
+      axisLabel: { show: false },
+      title: {
+        offsetCenter: [0, '20%'],
+        fontSize: 12,
+        color: '#7aa8c7'
+      },
+      detail: {
+        fontSize: 36,
+        offsetCenter: [0, '-10%'],
+        valueAnimation: true,
+        formatter: '{value}',
+        color: accent
+      },
+      data: [{ value: 92, name: '健康评分' }]
+    }]
+  };
+  gaugeChart.setOption(gaugeOption);
+
+  // 图表响应式
+  window.addEventListener('resize', function() {
+    lineChart.resize();
+    pieChart.resize();
+    gaugeChart.resize();
+  });
+
+  // 模拟实时数据更新
+  setInterval(function() {
+    // 更新请求数
+    const currentRequests = parseInt($('#requests').text().replace(/,/g, '')) || 8000000;
+    const newRequests = currentRequests + Math.floor(Math.random() * 100);
+    $('#requests').text(newRequests.toLocaleString());
+
+    // 更新仪表盘
+    const newScore = Math.floor(Math.random() * 10 + 85);
+    gaugeChart.setOption({
+      series: [{ data: [{ value: newScore, name: '健康评分' }] }]
+    });
+  }, 3000);
+});
+</script>
+</body>
+</html>
+</html>

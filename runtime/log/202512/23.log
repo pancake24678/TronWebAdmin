@@ -1,0 +1,540 @@
+---------------------------------------------------------------
+[ 2025-12-23T20:18:57+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php
+[运行时间：0.056582s] [吞吐率：17.67req/s] [内存消耗：3,018.48kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000114s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.005564s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005581s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001100s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001435s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000033s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000287s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000024s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:57+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/index/login
+[运行时间：0.025698s] [吞吐率：38.91req/s] [内存消耗：3,360.11kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001871s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001886s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000290s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000012s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000735s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000023s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000656s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000565s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000393s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000060s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\share\fadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\share\fadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @view_filter [ RunTime:0.000093s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000070s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000021s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:57+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/index.php?s=/captcha
+[运行时间：0.017955s] [吞吐率：55.69req/s] [内存消耗：2,376.00kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001751s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001766s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000291s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\share\fadmin\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000034s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:57+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1766492337
+[运行时间：0.023271s] [吞吐率：42.97req/s] [内存消耗：3,555.25kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001701s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001714s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000286s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000010s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1766492337',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000704s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000024s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000122s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000094s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000107s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000085s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\share\fadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000149s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000040s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:58+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/index/login
+[运行时间：0.020827s] [吞吐率：48.01req/s] [内存消耗：3,360.94kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001677s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001689s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000286s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000011s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000676s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000024s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000108s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000086s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000102s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000037s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\share\fadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\share\fadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @view_filter [ RunTime:0.000049s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000063s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000015s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:58+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/index.php?s=/captcha
+[运行时间：0.017378s] [吞吐率：57.54req/s] [内存消耗：2,376.13kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001869s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001892s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000311s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\share\fadmin\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000031s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:58+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1766492338
+[运行时间：0.024229s] [吞吐率：41.27req/s] [内存消耗：3,555.25kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002335s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002358s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000439s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1766492338',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000698s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000127s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000092s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000103s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000038s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\share\fadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000063s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000018s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:59+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/index/login
+[运行时间：0.019405s] [吞吐率：51.53req/s] [内存消耗：3,360.94kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001652s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001664s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000266s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000011s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000678s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000023s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000105s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000085s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000098s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000037s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\share\fadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\share\fadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @view_filter [ RunTime:0.000048s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000062s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000017s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:59+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/index.php?s=/captcha
+[运行时间：0.018327s] [吞吐率：54.56req/s] [内存消耗：2,376.13kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001746s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001762s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000312s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\share\fadmin\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000031s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-12-23T20:18:59+08:00 ] 127.0.0.1 GET fadmin.localhost.cn/jnBIzEyaWQ.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1766492339
+[运行时间：0.020641s] [吞吐率：48.45req/s] [内存消耗：3,555.25kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001712s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001725s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000280s ]
+[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000010s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=8114jb1cmac3km91d5f82ng2r7',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'fadmin.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1766492339',
+)
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000669s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000024s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000132s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000094s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000112s ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000047s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\share\fadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000064s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000021s ]
+[ info ] [ LOG ] INIT File

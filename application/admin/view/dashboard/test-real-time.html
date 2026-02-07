@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实时更新测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f7fa;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .test-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+        .test-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #e4e7ed;
+            border-radius: 4px;
+        }
+        .success {
+            color: #67c23a;
+        }
+        .error {
+            color: #f56c6c;
+        }
+        .chart-preview {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+            border: 1px solid #e4e7ed;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>监控图表实时更新测试</h1>
+    
+    <div class="test-container">
+        <h2>测试结果</h2>
+        <div class="test-item">
+            <strong>图表初始化测试:</strong>
+            <span id="init-result" class="error">测试中...</span>
+        </div>
+        <div class="test-item">
+            <strong>实时更新测试:</strong>
+            <span id="update-result" class="error">测试中...</span>
+        </div>
+        <div class="test-item">
+            <strong>图表数量测试:</strong>
+            <span id="count-result" class="error">测试中...</span>
+        </div>
+    </div>
+
+    <div class="test-container">
+        <h2>图表预览</h2>
+        <div id="cpuChart" class="chart-preview"></div>
+        <div id="memoryChart" class="chart-preview"></div>
+        <div id="networkChart" class="chart-preview"></div>
+        <div id="diskIOChart" class="chart-preview"></div>
+    </div>
+
+    <!-- 加载echarts -->
+    <script src="__CDN__/assets/js/echarts.min.js"></script>
+    <script>
+        // 测试图表初始化
+        function testChartInit() {
+            const result = document.getElementById('init-result');
+            
+            if (typeof echarts === 'undefined') {
+                result.textContent = 'ECharts未加载成功';
+                result.className = 'error';
+                return false;
+            }
+            
+            try {
+                // 尝试初始化一个简单的图表
+                const testChart = echarts.init(document.getElementById('cpuChart'));
+                testChart.setOption({
+                    title: {
+                        text: 'CPU使用率测试',
+                        left: 'center',
+                        textStyle: {
+                            fontSize: 12
+                        }
+                    },
+                    tooltip: {
+                        trigger: 'axis'
+                    },
+                    xAxis: {
+                        type: 'category',
+                        data: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00']
+                    },
+                    yAxis: {
+                        type: 'value'
+                    },
+                    series: [
+                        {
+                            data: [10, 12, 15, 8, 13, 7],
+                            type: 'line',
+                            smooth: true
+                        }
+                    ]
+                });
+                
+                result.textContent = '图表初始化成功';
+                result.className = 'success';
+                return true;
+            } catch (e) {
+                result.textContent = '图表初始化失败: ' + e.message;
+                result.className = 'error';
+                return false;
+            }
+        }
+        
+        // 测试实时更新
+        function testRealTimeUpdate() {
+            const result = document.getElementById('update-result');
+            
+            try {
+                // 初始化内存图表
+                const memoryChart = echarts.init(document.getElementById('memoryChart'));
+                let memoryData = [45, 42, 48, 46, 44, 47];
+                
+                memoryChart.setOption({
+                    title: {
+                        text: '内存使用率测试',
+                        left: 'center',
+                        textStyle: {
+                            fontSize: 12
+                        }
+                    },
+                    xAxis: {
+                        type: 'category',
+                        data: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00']
+                    },
+                    yAxis: {
+                        type: 'value',
+                        max: 100
+                    },
+                    series: [
+                        {
+                            data: memoryData,
+                            type: 'line',
+                            smooth: true
+                        }
+                    ]
+                });
+                
+                // 模拟实时更新
+                let updateCount = 0;
+                const updateInterval = setInterval(() => {
+                    // 生成新数据
+                    const newData = parseFloat((Math.random() * 10 + 40).toFixed(1));
+                    memoryData.push(newData);
+                    memoryData.shift();
+                    
+                    // 更新图表
+                    memoryChart.setOption({
+                        series: [{
+                            data: memoryData
+                        }]
+                    });
+                    
+                    updateCount++;
+                    
+                    // 测试5次更新后结束
+                    if (updateCount >= 5) {
+                        clearInterval(updateInterval);
+                        result.textContent = '实时更新测试成功，完成5次更新';
+                        result.className = 'success';
+                    }
+                }, 1000);
+                
+                return true;
+            } catch (e) {
+                result.textContent = '实时更新测试失败: ' + e.message;
+                result.className = 'error';
+                return false;
+            }
+        }
+        
+        // 测试图表数量
+        function testChartCount() {
+            const result = document.getElementById('count-result');
+            
+            try {
+                // 统计页面中的图表容器数量
+                const chartContainers = document.querySelectorAll('[id$="Chart"]');
+                result.textContent = `找到 ${chartContainers.length} 个图表容器，名称: ${Array.from(chartContainers).map(c => c.id).join(', ')}`;
+                result.className = 'success';
+                return true;
+            } catch (e) {
+                result.textContent = '图表数量测试失败: ' + e.message;
+                result.className = 'error';
+                return false;
+            }
+        }
+        
+        // 页面加载完成后执行测试
+        window.onload = function() {
+            testChartInit();
+            testRealTimeUpdate();
+            testChartCount();
+        };
+    </script>
+</body>
+</html>

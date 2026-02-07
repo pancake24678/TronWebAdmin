@@ -1,0 +1,6411 @@
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002191s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002347s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000431s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000824s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000138s ]
+info
+[ 2025-12-10T14:53:19+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T14:53:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:53:29
+mem:3487760
+
+log
+[ 2025-12-10T14:53:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:53:39
+mem:3488536
+
+log
+[ 2025-12-10T14:53:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:53:49
+mem:3488536
+
+log
+[ 2025-12-10T14:53:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:53:59
+mem:3488536
+
+log
+[ 2025-12-10T14:54:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:54:09
+mem:3488536
+
+log
+[ 2025-12-10T14:54:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:54:19
+mem:3488536
+
+log
+[ 2025-12-10T14:54:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:54:29
+mem:3488536
+
+log
+[ 2025-12-10T14:54:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:54:39
+mem:3488536
+
+log
+[ 2025-12-10T14:54:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:54:49
+mem:3488536
+
+log
+[ 2025-12-10T14:54:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:54:59
+mem:3488536
+
+log
+[ 2025-12-10T14:55:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:55:09
+mem:3488536
+
+log
+[ 2025-12-10T14:55:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:55:19
+mem:3488536
+
+log
+[ 2025-12-10T14:55:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:55:29
+mem:3488536
+
+log
+[ 2025-12-10T14:55:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:55:39
+mem:3488536
+
+log
+[ 2025-12-10T14:55:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:55:49
+mem:3488536
+
+log
+[ 2025-12-10T14:55:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:55:59
+mem:3488536
+
+log
+[ 2025-12-10T14:56:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:56:09
+mem:3488536
+
+log
+[ 2025-12-10T14:56:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:56:19
+mem:3488536
+
+log
+[ 2025-12-10T14:56:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:56:29
+mem:3488536
+
+log
+[ 2025-12-10T14:56:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:56:39
+mem:3488536
+
+log
+[ 2025-12-10T14:56:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:56:49
+mem:3488536
+
+log
+[ 2025-12-10T14:56:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:56:59
+mem:3488536
+
+log
+[ 2025-12-10T14:57:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:57:09
+mem:3488536
+
+log
+[ 2025-12-10T14:57:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:57:19
+mem:3488536
+
+log
+[ 2025-12-10T14:57:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:57:29
+mem:3488536
+
+log
+[ 2025-12-10T14:57:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:57:39
+mem:3488536
+
+log
+[ 2025-12-10T14:57:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:57:49
+mem:3488536
+
+log
+[ 2025-12-10T14:57:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:57:59
+mem:3488536
+
+log
+[ 2025-12-10T14:58:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:58:09
+mem:3488536
+
+log
+[ 2025-12-10T14:58:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:58:19
+mem:3488536
+
+log
+[ 2025-12-10T14:58:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:58:29
+mem:3488536
+
+log
+[ 2025-12-10T14:58:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:58:39
+mem:3488536
+
+log
+[ 2025-12-10T14:58:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:58:49
+mem:3488536
+
+log
+[ 2025-12-10T14:58:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:58:59
+mem:3488536
+
+log
+[ 2025-12-10T14:59:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:59:09
+mem:3488536
+
+log
+[ 2025-12-10T14:59:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:59:19
+mem:3488536
+
+log
+[ 2025-12-10T14:59:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:59:29
+mem:3488536
+
+log
+[ 2025-12-10T14:59:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:59:39
+mem:3488536
+
+log
+[ 2025-12-10T14:59:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:59:49
+mem:3488536
+
+log
+[ 2025-12-10T14:59:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 14:59:59
+mem:3488536
+
+log
+[ 2025-12-10T15:00:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:00:09
+mem:3488536
+
+log
+[ 2025-12-10T15:00:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:00:19
+mem:3488536
+
+log
+[ 2025-12-10T15:00:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:00:29
+mem:3488536
+
+log
+[ 2025-12-10T15:00:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:00:39
+mem:3488536
+
+log
+[ 2025-12-10T15:00:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:00:49
+mem:3488536
+
+log
+[ 2025-12-10T15:00:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:00:59
+mem:3488536
+
+log
+[ 2025-12-10T15:01:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:01:09
+mem:3488536
+
+log
+[ 2025-12-10T15:01:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:01:19
+mem:3488536
+
+log
+[ 2025-12-10T15:01:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:01:29
+mem:3488536
+
+log
+[ 2025-12-10T15:01:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:01:39
+mem:3488536
+
+log
+[ 2025-12-10T15:01:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:01:49
+mem:3488536
+
+log
+[ 2025-12-10T15:01:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:01:59
+mem:3488536
+
+log
+[ 2025-12-10T15:02:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:02:09
+mem:3488536
+
+log
+[ 2025-12-10T15:02:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:02:19
+mem:3488536
+
+log
+[ 2025-12-10T15:02:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:02:29
+mem:3488536
+
+log
+[ 2025-12-10T15:02:39+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:02:39
+mem:3488536
+
+log
+[ 2025-12-10T15:02:49+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:02:49
+mem:3488536
+
+log
+[ 2025-12-10T15:02:59+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:02:59
+mem:3488536
+
+log
+[ 2025-12-10T15:03:09+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:03:09
+mem:3488536
+
+log
+[ 2025-12-10T15:03:19+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:03:19
+mem:3488536
+
+log
+[ 2025-12-10T15:03:29+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:03:29
+mem:3488536
+
+log
+[ 2025-12-10T15:03:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:03:40
+mem:3488536
+
+log
+[ 2025-12-10T15:03:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:03:50
+mem:3488536
+
+log
+[ 2025-12-10T15:04:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:04:00
+mem:3488536
+
+log
+[ 2025-12-10T15:04:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:04:10
+mem:3488536
+
+log
+[ 2025-12-10T15:04:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:04:20
+mem:3488536
+
+log
+[ 2025-12-10T15:04:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:04:30
+mem:3488536
+
+log
+[ 2025-12-10T15:04:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:04:40
+mem:3488536
+
+log
+[ 2025-12-10T15:04:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:04:50
+mem:3488536
+
+log
+[ 2025-12-10T15:05:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:05:00
+mem:3488536
+
+log
+[ 2025-12-10T15:05:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:05:10
+mem:3488536
+
+log
+[ 2025-12-10T15:05:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:05:20
+mem:3488536
+
+log
+[ 2025-12-10T15:05:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:05:30
+mem:3488536
+
+log
+[ 2025-12-10T15:05:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:05:40
+mem:3488536
+
+log
+[ 2025-12-10T15:05:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:05:50
+mem:3488536
+
+log
+[ 2025-12-10T15:06:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:06:00
+mem:3488536
+
+log
+[ 2025-12-10T15:06:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:06:10
+mem:3488536
+
+log
+[ 2025-12-10T15:06:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:06:20
+mem:3488536
+
+log
+[ 2025-12-10T15:06:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:06:30
+mem:3488536
+
+log
+[ 2025-12-10T15:06:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:06:40
+mem:3488536
+
+log
+[ 2025-12-10T15:06:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:06:50
+mem:3488536
+
+log
+[ 2025-12-10T15:07:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:07:00
+mem:3488536
+
+log
+[ 2025-12-10T15:07:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:07:10
+mem:3488536
+
+log
+[ 2025-12-10T15:07:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:07:20
+mem:3488536
+
+log
+[ 2025-12-10T15:07:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:07:30
+mem:3488536
+
+log
+[ 2025-12-10T15:07:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:07:40
+mem:3488536
+
+log
+[ 2025-12-10T15:07:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:07:50
+mem:3488536
+
+log
+[ 2025-12-10T15:08:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:08:00
+mem:3488536
+
+log
+[ 2025-12-10T15:08:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:08:10
+mem:3488536
+
+log
+[ 2025-12-10T15:08:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:08:20
+mem:3488536
+
+log
+[ 2025-12-10T15:08:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:08:30
+mem:3488536
+
+log
+[ 2025-12-10T15:08:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:08:40
+mem:3488536
+
+log
+[ 2025-12-10T15:08:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:08:50
+mem:3488536
+
+log
+[ 2025-12-10T15:09:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:09:00
+mem:3488536
+
+log
+[ 2025-12-10T15:09:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:09:10
+mem:3488536
+
+log
+[ 2025-12-10T15:09:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:09:20
+mem:3488536
+
+log
+[ 2025-12-10T15:09:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:09:30
+mem:3488536
+
+log
+[ 2025-12-10T15:09:40+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:09:40
+mem:3488536
+
+log
+[ 2025-12-10T15:09:50+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:09:50
+mem:3488536
+
+log
+[ 2025-12-10T15:10:00+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:10:00
+mem:3488536
+
+log
+[ 2025-12-10T15:10:10+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:10:10
+mem:3488536
+
+log
+[ 2025-12-10T15:10:20+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:10:20
+mem:3488536
+
+log
+[ 2025-12-10T15:10:30+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:10:30
+mem:3488536
+
+log
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.003153s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003351s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000507s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000857s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000035s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000139s ]
+info
+[ 2025-12-10T15:12:37+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T15:12:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:12:47
+mem:3259640
+
+log
+[ 2025-12-10T15:12:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:12:57
+mem:3260400
+
+log
+[ 2025-12-10T15:13:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:13:07
+mem:3260400
+
+log
+[ 2025-12-10T15:13:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:13:17
+mem:3260400
+
+log
+[ 2025-12-10T15:13:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:13:27
+mem:3260400
+
+log
+[ 2025-12-10T15:13:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:13:37
+mem:3260400
+
+log
+[ 2025-12-10T15:13:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:13:47
+mem:3260400
+
+log
+[ 2025-12-10T15:13:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:13:57
+mem:3260400
+
+log
+[ 2025-12-10T15:14:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:14:07
+mem:3260400
+
+log
+[ 2025-12-10T15:14:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:14:17
+mem:3260400
+
+log
+[ 2025-12-10T15:14:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:14:27
+mem:3260400
+
+log
+[ 2025-12-10T15:14:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:14:37
+mem:3260400
+
+log
+[ 2025-12-10T15:14:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:14:47
+mem:3260400
+
+log
+[ 2025-12-10T15:14:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:14:57
+mem:3260400
+
+log
+[ 2025-12-10T15:15:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:15:07
+mem:3260400
+
+log
+[ 2025-12-10T15:15:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:15:17
+mem:3260400
+
+log
+[ 2025-12-10T15:15:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:15:27
+mem:3260400
+
+log
+[ 2025-12-10T15:15:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:15:37
+mem:3260400
+
+log
+[ 2025-12-10T15:15:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:15:47
+mem:3260400
+
+log
+[ 2025-12-10T15:15:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:15:57
+mem:3260400
+
+log
+[ 2025-12-10T15:16:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:16:07
+mem:3260400
+
+log
+[ 2025-12-10T15:16:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:16:17
+mem:3260400
+
+log
+[ 2025-12-10T15:16:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:16:27
+mem:3260400
+
+log
+[ 2025-12-10T15:16:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:16:37
+mem:3260400
+
+log
+[ 2025-12-10T15:16:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:16:47
+mem:3260400
+
+log
+[ 2025-12-10T15:16:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:16:57
+mem:3260400
+
+log
+[ 2025-12-10T15:17:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:17:07
+mem:3260400
+
+log
+[ 2025-12-10T15:17:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:17:17
+mem:3260400
+
+log
+[ 2025-12-10T15:17:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:17:27
+mem:3260400
+
+log
+[ 2025-12-10T15:17:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:17:37
+mem:3260400
+
+log
+[ 2025-12-10T15:17:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:17:47
+mem:3260400
+
+log
+[ 2025-12-10T15:17:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:17:57
+mem:3260400
+
+log
+[ 2025-12-10T15:18:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:18:07
+mem:3260400
+
+log
+[ 2025-12-10T15:18:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:18:17
+mem:3260400
+
+log
+[ 2025-12-10T15:18:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:18:27
+mem:3260400
+
+log
+[ 2025-12-10T15:18:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:18:37
+mem:3260400
+
+log
+[ 2025-12-10T15:18:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:18:47
+mem:3260400
+
+log
+[ 2025-12-10T15:18:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:18:57
+mem:3260400
+
+log
+[ 2025-12-10T15:19:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:19:07
+mem:3260400
+
+log
+[ 2025-12-10T15:19:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:19:17
+mem:3260400
+
+log
+[ 2025-12-10T15:19:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:19:27
+mem:3260400
+
+log
+[ 2025-12-10T15:19:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:19:37
+mem:3260400
+
+log
+[ 2025-12-10T15:19:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:19:47
+mem:3260400
+
+log
+[ 2025-12-10T15:19:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:19:57
+mem:3260400
+
+log
+[ 2025-12-10T15:20:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:20:07
+mem:3260400
+
+log
+[ 2025-12-10T15:20:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:20:17
+mem:3260400
+
+log
+[ 2025-12-10T15:20:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:20:27
+mem:3260400
+
+log
+[ 2025-12-10T15:20:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:20:37
+mem:3260400
+
+log
+[ 2025-12-10T15:20:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:20:47
+mem:3260400
+
+log
+[ 2025-12-10T15:20:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:20:57
+mem:3260400
+
+log
+[ 2025-12-10T15:21:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:21:07
+mem:3260400
+
+log
+[ 2025-12-10T15:21:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:21:17
+mem:3260400
+
+log
+[ 2025-12-10T15:21:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:21:27
+mem:3260400
+
+log
+[ 2025-12-10T15:21:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:21:37
+mem:3260400
+
+log
+[ 2025-12-10T15:21:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:21:47
+mem:3260400
+
+log
+[ 2025-12-10T15:21:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:21:57
+mem:3260400
+
+log
+[ 2025-12-10T15:22:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:22:07
+mem:3260400
+
+log
+[ 2025-12-10T15:22:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:22:17
+mem:3260400
+
+log
+[ 2025-12-10T15:22:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:22:27
+mem:3260400
+
+log
+[ 2025-12-10T15:22:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:22:37
+mem:3260400
+
+log
+[ 2025-12-10T15:22:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:22:47
+mem:3260400
+
+log
+[ 2025-12-10T15:22:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:22:57
+mem:3260400
+
+log
+[ 2025-12-10T15:23:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:23:07
+mem:3260400
+
+log
+[ 2025-12-10T15:23:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:23:17
+mem:3260400
+
+log
+[ 2025-12-10T15:23:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:23:27
+mem:3260400
+
+log
+[ 2025-12-10T15:23:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:23:37
+mem:3260400
+
+log
+[ 2025-12-10T15:23:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:23:47
+mem:3260400
+
+log
+[ 2025-12-10T15:23:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:23:57
+mem:3260400
+
+log
+[ 2025-12-10T15:24:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:24:07
+mem:3260400
+
+log
+[ 2025-12-10T15:24:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:24:17
+mem:3260400
+
+log
+[ 2025-12-10T15:24:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:24:27
+mem:3260400
+
+log
+[ 2025-12-10T15:24:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:24:37
+mem:3260400
+
+log
+[ 2025-12-10T15:24:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:24:47
+mem:3260400
+
+log
+[ 2025-12-10T15:24:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:24:57
+mem:3260400
+
+log
+[ 2025-12-10T15:25:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:25:07
+mem:3260400
+
+log
+[ 2025-12-10T15:25:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:25:17
+mem:3260400
+
+log
+[ 2025-12-10T15:25:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:25:27
+mem:3260400
+
+log
+[ 2025-12-10T15:25:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:25:37
+mem:3260400
+
+log
+[ 2025-12-10T15:25:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:25:47
+mem:3260400
+
+log
+[ 2025-12-10T15:25:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:25:57
+mem:3260400
+
+log
+[ 2025-12-10T15:26:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:26:07
+mem:3260400
+
+log
+[ 2025-12-10T15:26:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:26:17
+mem:3260400
+
+log
+[ 2025-12-10T15:26:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:26:27
+mem:3260400
+
+log
+[ 2025-12-10T15:26:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:26:37
+mem:3260400
+
+log
+[ 2025-12-10T15:26:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:26:47
+mem:3260400
+
+log
+[ 2025-12-10T15:26:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:26:57
+mem:3260400
+
+log
+[ 2025-12-10T15:27:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:27:07
+mem:3260400
+
+log
+[ 2025-12-10T15:27:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:27:17
+mem:3260400
+
+log
+[ 2025-12-10T15:27:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:27:27
+mem:3260400
+
+log
+[ 2025-12-10T15:27:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:27:37
+mem:3260400
+
+log
+[ 2025-12-10T15:27:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:27:47
+mem:3260400
+
+log
+[ 2025-12-10T15:27:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:27:57
+mem:3260400
+
+log
+[ 2025-12-10T15:28:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:28:07
+mem:3260400
+
+log
+[ 2025-12-10T15:28:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:28:17
+mem:3260400
+
+log
+[ 2025-12-10T15:28:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:28:27
+mem:3260400
+
+log
+[ 2025-12-10T15:28:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:28:37
+mem:3260400
+
+log
+[ 2025-12-10T15:28:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:28:47
+mem:3260400
+
+log
+[ 2025-12-10T15:28:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:28:57
+mem:3260400
+
+log
+[ 2025-12-10T15:29:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:29:07
+mem:3260400
+
+log
+[ 2025-12-10T15:29:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:29:17
+mem:3260400
+
+log
+[ 2025-12-10T15:29:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:29:27
+mem:3260400
+
+log
+[ 2025-12-10T15:29:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:29:37
+mem:3260400
+
+log
+[ 2025-12-10T15:29:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:29:47
+mem:3260400
+
+log
+[ 2025-12-10T15:29:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:29:57
+mem:3260400
+
+log
+[ 2025-12-10T15:30:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:30:07
+mem:3260400
+
+log
+[ 2025-12-10T15:30:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:30:17
+mem:3260400
+
+log
+[ 2025-12-10T15:30:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:30:27
+mem:3260400
+
+log
+[ 2025-12-10T15:30:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:30:37
+mem:3260400
+
+log
+[ 2025-12-10T15:30:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:30:47
+mem:3260400
+
+log
+[ 2025-12-10T15:30:57+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:30:57
+mem:3260400
+
+log
+[ 2025-12-10T15:31:07+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:31:07
+mem:3260400
+
+log
+[ 2025-12-10T15:31:17+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:31:17
+mem:3260400
+
+log
+[ 2025-12-10T15:31:27+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:31:27
+mem:3260400
+
+log
+[ 2025-12-10T15:31:37+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:31:37
+mem:3260400
+
+log
+[ 2025-12-10T15:31:47+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:31:47
+mem:3260400
+
+log
+[ 2025-12-10T15:31:58+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:31:58
+mem:3260400
+
+log
+[ 2025-12-10T15:32:08+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:32:08
+mem:3260400
+
+log
+[ 2025-12-10T15:32:18+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:32:18
+mem:3260400
+
+log
+[ 2025-12-10T15:32:28+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:32:28
+mem:3260400
+
+log
+[ 2025-12-10T15:32:38+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:32:38
+mem:3260400
+
+log
+[ 2025-12-10T15:32:48+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:32:48
+mem:3260400
+
+log
+[ 2025-12-10T15:32:58+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:32:58
+mem:3260400
+
+log
+[ 2025-12-10T15:33:08+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:33:08
+mem:3260400
+
+log
+[ 2025-12-10T15:33:18+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:33:18
+mem:3260400
+
+log
+[ 2025-12-10T15:33:28+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:33:28
+mem:3260400
+
+log
+[ 2025-12-10T15:33:38+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:33:38
+mem:3260400
+
+log
+[ 2025-12-10T15:33:48+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:33:48
+mem:3260400
+
+log
+[ 2025-12-10T15:33:58+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:33:58
+mem:3260400
+
+log
+[ 2025-12-10T15:34:08+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:34:08
+mem:3260400
+
+log
+[ 2025-12-10T15:34:18+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:34:18
+mem:3260400
+
+log
+[ 2025-12-10T15:34:28+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:34:28
+mem:3260400
+
+log
+[ 2025-12-10T15:34:38+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:34:38
+mem:3260400
+
+log
+[ 2025-12-10T15:34:48+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:34:48
+mem:3260400
+
+log
+[ 2025-12-10T15:34:58+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:34:58
+mem:3260400
+
+log
+[ 2025-12-10T15:35:08+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:35:08
+mem:3260400
+
+log
+[ 2025-12-10T15:35:18+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:35:18
+mem:3260400
+
+log
+[ 2025-12-10T15:35:28+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:35:28
+mem:3260400
+
+log
+[ 2025-12-10T15:35:38+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:35:38
+mem:3260400
+
+log
+[ 2025-12-10T15:35:48+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:35:48
+mem:3260400
+
+log
+[ 2025-12-10T15:35:58+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:35:58
+mem:3260400
+
+log
+[ 2025-12-10T15:36:08+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:36:08
+mem:3260400
+
+log
+[ 2025-12-10T15:36:18+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:36:18
+mem:3260400
+
+log
+[ 2025-12-10T15:36:28+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:36:28
+mem:3260400
+
+log
+[ 2025-12-10T15:36:38+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:36:38
+mem:3260400
+
+log
+[ 2025-12-10T15:36:48+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:36:48
+mem:3260400
+
+log
+[ 2025-12-10T15:36:58+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:36:58
+mem:3260400
+
+log
+[ 2025-12-10T15:37:08+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:37:08
+mem:3260400
+
+log
+[ 2025-12-10T15:37:18+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:37:18
+mem:3347128
+
+log
+[ 2025-12-10T15:37:28+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:37:28
+mem:3347064
+
+log
+[ 2025-12-10T15:37:38+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:37:38
+mem:3347064
+
+log
+[ 2025-12-10T15:37:48+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:37:48
+mem:3347064
+
+log
+[ 2025-12-10T15:37:58+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:37:58
+mem:3347064
+
+log
+[ 2025-12-10T15:38:08+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:38:08
+mem:3347064
+
+log
+[ 2025-12-10T15:38:18+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:38:18
+mem:3347064
+
+log
+[ 2025-12-10T15:38:28+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:38:28
+mem:3347064
+
+log
+[ 2025-12-10T15:38:38+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:38:38
+mem:3347064
+
+log
+[ 2025-12-10T15:38:48+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:38:48
+mem:3347064
+
+log
+[ 2025-12-10T15:38:58+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:38:58
+mem:3347064
+
+log
+[ 2025-12-10T15:49:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:49:41
+mem:3343920
+
+log
+[ 2025-12-10T15:49:51+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:49:51
+mem:3347760
+
+log
+[ 2025-12-10T15:50:01+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:50:01
+mem:3347760
+
+log
+[ 2025-12-10T15:50:11+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:50:11
+mem:3347760
+
+log
+[ 2025-12-10T15:50:21+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:50:21
+mem:3347760
+
+log
+[ 2025-12-10T15:50:31+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:50:31
+mem:3347760
+
+log
+[ 2025-12-10T15:50:41+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:50:41
+mem:3347760
+
+log
+[ 2025-12-10T15:50:51+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:50:51
+mem:3347760
+
+log
+[ 2025-12-10T15:51:01+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:51:01
+mem:3347760
+
+log
+[ 2025-12-10T15:51:11+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:51:11
+mem:3347760
+
+log
+[ 2025-12-10T15:51:21+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:51:21
+mem:3347760
+
+log
+[ 2025-12-10T15:51:31+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:51:31
+mem:3347760
+
+log
+[ 2025-12-10T15:51:41+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:51:41
+mem:3347760
+
+log
+[ 2025-12-10T15:51:51+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:51:51
+mem:3347760
+
+log
+[ 2025-12-10T15:52:01+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:52:01
+mem:3347760
+
+log
+[ 2025-12-10T15:52:11+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:52:11
+mem:3347760
+
+log
+[ 2025-12-10T15:52:21+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:52:21
+mem:3347760
+
+log
+[ 2025-12-10T15:52:31+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:52:31
+mem:3347760
+
+log
+[ 2025-12-10T15:52:41+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:52:41
+mem:3347760
+
+log
+[ 2025-12-10T15:52:51+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:52:51
+mem:3347760
+
+log
+[ 2025-12-10T15:53:01+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:53:01
+mem:3347760
+
+log
+[ 2025-12-10T15:53:11+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:53:11
+mem:3347760
+
+log
+[ 2025-12-10T15:53:21+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:53:21
+mem:3347760
+
+log
+[ 2025-12-10T15:53:31+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:53:31
+mem:3347760
+
+log
+[ 2025-12-10T15:53:41+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:53:41
+mem:3347760
+
+log
+[ 2025-12-10T15:53:51+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:53:51
+mem:3347760
+
+log
+[ 2025-12-10T15:54:01+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:54:01
+mem:3347760
+
+log
+[ 2025-12-10T15:54:11+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:54:11
+mem:3347760
+
+log
+[ 2025-12-10T15:54:21+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:54:21
+mem:3347760
+
+log
+[ 2025-12-10T15:54:31+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:54:31
+mem:3347760
+
+log
+[ 2025-12-10T15:54:41+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:54:41
+mem:3347760
+
+log
+[ 2025-12-10T15:54:51+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:54:51
+mem:3347760
+
+log
+[ 2025-12-10T15:55:01+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:55:01
+mem:3347760
+
+log
+[ 2025-12-10T15:55:11+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:55:11
+mem:3347760
+
+log
+[ 2025-12-10T15:55:21+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:55:21
+mem:3347760
+
+log
+[ 2025-12-10T15:55:31+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 15:55:31
+mem:3347760
+
+log
+[ 2025-12-10T15:55:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:55:41
+mem:3344240
+
+log
+[ 2025-12-10T15:55:51+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:55:51
+mem:3344240
+
+log
+[ 2025-12-10T15:56:01+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:56:01
+mem:3344240
+
+log
+[ 2025-12-10T15:56:11+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:56:11
+mem:3344240
+
+log
+[ 2025-12-10T15:56:21+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:56:21
+mem:3344240
+
+log
+[ 2025-12-10T15:56:31+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:56:31
+mem:3344240
+
+log
+[ 2025-12-10T15:56:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:56:41
+mem:3344240
+
+log
+[ 2025-12-10T15:56:51+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:56:51
+mem:3344240
+
+log
+[ 2025-12-10T15:57:01+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:57:01
+mem:3344240
+
+log
+[ 2025-12-10T15:57:11+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:57:11
+mem:3344240
+
+log
+[ 2025-12-10T15:57:21+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:57:21
+mem:3344240
+
+log
+[ 2025-12-10T15:57:31+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:57:31
+mem:3344240
+
+log
+[ 2025-12-10T15:57:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:57:41
+mem:3344240
+
+log
+[ 2025-12-10T15:57:51+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:57:51
+mem:3344240
+
+log
+[ 2025-12-10T15:58:01+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:58:01
+mem:3344240
+
+log
+[ 2025-12-10T15:58:11+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:58:11
+mem:3344240
+
+log
+[ 2025-12-10T15:58:21+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:58:21
+mem:3344240
+
+log
+[ 2025-12-10T15:58:31+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:58:31
+mem:3344240
+
+log
+[ 2025-12-10T15:58:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:58:41
+mem:3344240
+
+log
+[ 2025-12-10T15:58:51+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:58:51
+mem:3344240
+
+log
+[ 2025-12-10T15:59:01+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:59:01
+mem:3344240
+
+log
+[ 2025-12-10T15:59:11+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:59:11
+mem:3344240
+
+log
+[ 2025-12-10T15:59:21+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:59:21
+mem:3344240
+
+log
+[ 2025-12-10T15:59:31+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:59:31
+mem:3344240
+
+log
+[ 2025-12-10T15:59:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:59:41
+mem:3344240
+
+log
+[ 2025-12-10T15:59:51+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 15:59:51
+mem:3344240
+
+log
+[ 2025-12-10T16:00:01+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:00:01
+mem:3344240
+
+log
+[ 2025-12-10T16:00:11+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:00:11
+mem:3344240
+
+log
+[ 2025-12-10T16:00:21+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:00:21
+mem:3344240
+
+log
+[ 2025-12-10T16:00:31+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:00:31
+mem:3344240
+
+log
+[ 2025-12-10T16:00:41+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:00:41
+mem:3344240
+
+log
+[ 2025-12-10T16:00:51+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:00:51
+mem:3344240
+
+log
+[ 2025-12-10T16:01:01+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:01:01
+mem:3344240
+
+log
+[ 2025-12-10T16:01:11+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:01:11
+mem:3344240
+
+log
+[ 2025-12-10T16:01:22+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:01:22
+mem:3344240
+
+log
+[ 2025-12-10T16:01:32+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:01:32
+mem:3344240
+
+log
+[ 2025-12-10T16:01:42+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:01:42
+mem:3344240
+
+log
+[ 2025-12-10T16:01:52+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:01:52
+mem:3344240
+
+log
+[ 2025-12-10T16:02:02+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:02:02
+mem:3344240
+
+log
+[ 2025-12-10T16:02:12+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:02:12
+mem:3344240
+
+log
+[ 2025-12-10T16:02:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:02:22
+mem:3347760
+
+log
+[ 2025-12-10T16:02:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:02:32
+mem:3347760
+
+log
+[ 2025-12-10T16:02:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:02:42
+mem:3347760
+
+log
+[ 2025-12-10T16:02:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:02:52
+mem:3347760
+
+log
+[ 2025-12-10T16:03:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:03:02
+mem:3347760
+
+log
+[ 2025-12-10T16:03:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:03:12
+mem:3347760
+
+log
+[ 2025-12-10T16:03:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:03:22
+mem:3347760
+
+log
+[ 2025-12-10T16:03:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:03:32
+mem:3347760
+
+log
+[ 2025-12-10T16:03:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:03:42
+mem:3347760
+
+log
+[ 2025-12-10T16:03:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:03:52
+mem:3347760
+
+log
+[ 2025-12-10T16:04:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:04:02
+mem:3347760
+
+log
+[ 2025-12-10T16:04:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:04:12
+mem:3347760
+
+log
+[ 2025-12-10T16:04:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:04:22
+mem:3347760
+
+log
+[ 2025-12-10T16:04:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:04:32
+mem:3347760
+
+log
+[ 2025-12-10T16:04:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:04:42
+mem:3347760
+
+log
+[ 2025-12-10T16:04:52+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:04:52
+mem:3344240
+
+log
+[ 2025-12-10T16:05:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:05:02
+mem:3347760
+
+log
+[ 2025-12-10T16:05:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:05:12
+mem:3347760
+
+log
+[ 2025-12-10T16:05:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:05:22
+mem:3347760
+
+log
+[ 2025-12-10T16:05:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:05:32
+mem:3347760
+
+log
+[ 2025-12-10T16:05:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:05:42
+mem:3347760
+
+log
+[ 2025-12-10T16:05:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:05:52
+mem:3347760
+
+log
+[ 2025-12-10T16:06:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:06:02
+mem:3347760
+
+log
+[ 2025-12-10T16:06:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:06:12
+mem:3347760
+
+log
+[ 2025-12-10T16:06:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:06:22
+mem:3347760
+
+log
+[ 2025-12-10T16:06:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:06:32
+mem:3347760
+
+log
+[ 2025-12-10T16:06:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:06:42
+mem:3347760
+
+log
+[ 2025-12-10T16:06:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:06:52
+mem:3347760
+
+log
+[ 2025-12-10T16:07:02+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:07:02
+mem:3344240
+
+log
+[ 2025-12-10T16:07:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:07:12
+mem:3347760
+
+log
+[ 2025-12-10T16:07:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:07:22
+mem:3347760
+
+log
+[ 2025-12-10T16:07:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:07:32
+mem:3347760
+
+log
+[ 2025-12-10T16:07:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:07:42
+mem:3347760
+
+log
+[ 2025-12-10T16:07:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:07:52
+mem:3347760
+
+log
+[ 2025-12-10T16:08:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:08:02
+mem:3347760
+
+log
+[ 2025-12-10T16:08:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:08:12
+mem:3347760
+
+log
+[ 2025-12-10T16:08:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:08:22
+mem:3347760
+
+log
+[ 2025-12-10T16:08:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:08:32
+mem:3347760
+
+log
+[ 2025-12-10T16:08:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:08:42
+mem:3347760
+
+log
+[ 2025-12-10T16:08:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:08:52
+mem:3347760
+
+log
+[ 2025-12-10T16:09:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:09:02
+mem:3347760
+
+log
+[ 2025-12-10T16:09:12+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:09:12
+mem:3344240
+
+log
+[ 2025-12-10T16:09:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:09:22
+mem:3347760
+
+log
+[ 2025-12-10T16:09:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:09:32
+mem:3347760
+
+log
+[ 2025-12-10T16:09:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:09:42
+mem:3347760
+
+log
+[ 2025-12-10T16:09:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:09:52
+mem:3347760
+
+log
+[ 2025-12-10T16:10:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:10:02
+mem:3347760
+
+log
+[ 2025-12-10T16:10:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:10:12
+mem:3347760
+
+log
+[ 2025-12-10T16:10:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:10:22
+mem:3347760
+
+log
+[ 2025-12-10T16:10:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:10:32
+mem:3347760
+
+log
+[ 2025-12-10T16:10:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:10:42
+mem:3347760
+
+log
+[ 2025-12-10T16:10:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:10:52
+mem:3347760
+
+log
+[ 2025-12-10T16:11:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:11:02
+mem:3347760
+
+log
+[ 2025-12-10T16:11:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:11:12
+mem:3347760
+
+log
+[ 2025-12-10T16:11:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:11:22
+mem:3347760
+
+log
+[ 2025-12-10T16:11:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:11:32
+mem:3347760
+
+log
+[ 2025-12-10T16:11:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:11:42
+mem:3347760
+
+log
+[ 2025-12-10T16:11:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:11:52
+mem:3347760
+
+log
+[ 2025-12-10T16:12:02+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:12:02
+mem:3344240
+
+log
+[ 2025-12-10T16:12:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:12:12
+mem:3347760
+
+log
+[ 2025-12-10T16:12:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:12:22
+mem:3347760
+
+log
+[ 2025-12-10T16:12:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:12:32
+mem:3347760
+
+log
+[ 2025-12-10T16:12:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:12:42
+mem:3347760
+
+log
+[ 2025-12-10T16:12:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:12:52
+mem:3347760
+
+log
+[ 2025-12-10T16:13:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:13:02
+mem:3347760
+
+log
+[ 2025-12-10T16:13:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:13:12
+mem:3347760
+
+log
+[ 2025-12-10T16:13:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:13:22
+mem:3347760
+
+log
+[ 2025-12-10T16:13:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:13:32
+mem:3347760
+
+log
+[ 2025-12-10T16:13:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:13:42
+mem:3347760
+
+log
+[ 2025-12-10T16:13:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:13:52
+mem:3347760
+
+log
+[ 2025-12-10T16:14:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:14:02
+mem:3347760
+
+log
+[ 2025-12-10T16:14:12+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:14:12
+mem:3344240
+
+log
+[ 2025-12-10T16:14:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:14:22
+mem:3347760
+
+log
+[ 2025-12-10T16:14:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:14:32
+mem:3347760
+
+log
+[ 2025-12-10T16:14:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:14:42
+mem:3347760
+
+log
+[ 2025-12-10T16:14:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:14:52
+mem:3347760
+
+log
+[ 2025-12-10T16:15:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:15:02
+mem:3347760
+
+log
+[ 2025-12-10T16:15:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:15:12
+mem:3347760
+
+log
+[ 2025-12-10T16:15:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:15:22
+mem:3347760
+
+log
+[ 2025-12-10T16:15:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:15:32
+mem:3347760
+
+log
+[ 2025-12-10T16:15:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:15:42
+mem:3347760
+
+log
+[ 2025-12-10T16:15:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:15:52
+mem:3347760
+
+log
+[ 2025-12-10T16:16:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:16:02
+mem:3347760
+
+log
+[ 2025-12-10T16:16:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:16:12
+mem:3347760
+
+log
+[ 2025-12-10T16:16:22+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:16:22
+mem:3344240
+
+log
+[ 2025-12-10T16:16:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:16:32
+mem:3347760
+
+log
+[ 2025-12-10T16:16:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:16:42
+mem:3347760
+
+log
+[ 2025-12-10T16:16:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:16:52
+mem:3347760
+
+log
+[ 2025-12-10T16:17:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:17:02
+mem:3347760
+
+log
+[ 2025-12-10T16:17:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:17:12
+mem:3347760
+
+log
+[ 2025-12-10T16:17:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:17:22
+mem:3347760
+
+log
+[ 2025-12-10T16:17:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:17:32
+mem:3347760
+
+log
+[ 2025-12-10T16:17:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:17:42
+mem:3347760
+
+log
+[ 2025-12-10T16:17:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:17:52
+mem:3347760
+
+log
+[ 2025-12-10T16:18:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:18:02
+mem:3347760
+
+log
+[ 2025-12-10T16:18:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:18:12
+mem:3347760
+
+log
+[ 2025-12-10T16:18:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:18:22
+mem:3347760
+
+log
+[ 2025-12-10T16:18:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:18:32
+mem:3347760
+
+log
+[ 2025-12-10T16:18:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:18:42
+mem:3347760
+
+log
+[ 2025-12-10T16:18:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:18:52
+mem:3347760
+
+log
+[ 2025-12-10T16:19:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:19:02
+mem:3347760
+
+log
+[ 2025-12-10T16:19:12+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:19:12
+mem:3344240
+
+log
+[ 2025-12-10T16:19:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:19:22
+mem:3347760
+
+log
+[ 2025-12-10T16:19:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:19:32
+mem:3347760
+
+log
+[ 2025-12-10T16:19:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:19:42
+mem:3347760
+
+log
+[ 2025-12-10T16:19:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:19:52
+mem:3347760
+
+log
+[ 2025-12-10T16:20:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:20:02
+mem:3347760
+
+log
+[ 2025-12-10T16:20:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:20:12
+mem:3347760
+
+log
+[ 2025-12-10T16:20:22+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:20:22
+mem:3347760
+
+log
+[ 2025-12-10T16:20:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:20:32
+mem:3347760
+
+log
+[ 2025-12-10T16:20:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:20:42
+mem:3347760
+
+log
+[ 2025-12-10T16:20:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:20:52
+mem:3347760
+
+log
+[ 2025-12-10T16:21:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:21:02
+mem:3347760
+
+log
+[ 2025-12-10T16:21:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:21:12
+mem:3347760
+
+log
+[ 2025-12-10T16:21:22+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:21:22
+mem:3344240
+
+log
+[ 2025-12-10T16:21:32+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:21:32
+mem:3347760
+
+log
+[ 2025-12-10T16:21:42+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:21:42
+mem:3347760
+
+log
+[ 2025-12-10T16:21:52+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:21:52
+mem:3347760
+
+log
+[ 2025-12-10T16:22:02+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:22:02
+mem:3347760
+
+log
+[ 2025-12-10T16:22:12+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:22:12
+mem:3347760
+
+log
+[ 2025-12-10T16:22:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:22:23
+mem:3347760
+
+log
+[ 2025-12-10T16:22:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:22:33
+mem:3347760
+
+log
+[ 2025-12-10T16:22:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:22:43
+mem:3347760
+
+log
+[ 2025-12-10T16:22:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:22:53
+mem:3347760
+
+log
+[ 2025-12-10T16:23:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:23:03
+mem:3347760
+
+log
+[ 2025-12-10T16:23:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:23:13
+mem:3347760
+
+log
+[ 2025-12-10T16:23:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:23:23
+mem:3347760
+
+log
+[ 2025-12-10T16:23:33+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:23:33
+mem:3344240
+
+log
+[ 2025-12-10T16:23:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:23:43
+mem:3347760
+
+log
+[ 2025-12-10T16:23:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:23:53
+mem:3347760
+
+log
+[ 2025-12-10T16:24:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:24:03
+mem:3347760
+
+log
+[ 2025-12-10T16:24:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:24:13
+mem:3347760
+
+log
+[ 2025-12-10T16:24:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:24:23
+mem:3347760
+
+log
+[ 2025-12-10T16:24:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:24:33
+mem:3347760
+
+log
+[ 2025-12-10T16:24:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:24:43
+mem:3347760
+
+log
+[ 2025-12-10T16:24:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:24:53
+mem:3347760
+
+log
+[ 2025-12-10T16:25:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:25:03
+mem:3347760
+
+log
+[ 2025-12-10T16:25:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:25:13
+mem:3347760
+
+log
+[ 2025-12-10T16:25:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:25:23
+mem:3347760
+
+log
+[ 2025-12-10T16:25:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:25:33
+mem:3347760
+
+log
+[ 2025-12-10T16:25:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:25:43
+mem:3347760
+
+log
+[ 2025-12-10T16:25:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:25:53
+mem:3347760
+
+log
+[ 2025-12-10T16:26:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:26:03
+mem:3347760
+
+log
+[ 2025-12-10T16:26:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:26:13
+mem:3347760
+
+log
+[ 2025-12-10T16:26:23+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:26:23
+mem:3344240
+
+log
+[ 2025-12-10T16:26:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:26:33
+mem:3347760
+
+log
+[ 2025-12-10T16:26:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:26:43
+mem:3347760
+
+log
+[ 2025-12-10T16:26:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:26:53
+mem:3347760
+
+log
+[ 2025-12-10T16:27:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:27:03
+mem:3347760
+
+log
+[ 2025-12-10T16:27:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:27:13
+mem:3347760
+
+log
+[ 2025-12-10T16:27:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:27:23
+mem:3347760
+
+log
+[ 2025-12-10T16:27:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:27:33
+mem:3347760
+
+log
+[ 2025-12-10T16:27:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:27:43
+mem:3347760
+
+log
+[ 2025-12-10T16:27:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:27:53
+mem:3347760
+
+log
+[ 2025-12-10T16:28:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:28:03
+mem:3347760
+
+log
+[ 2025-12-10T16:28:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:28:13
+mem:3347760
+
+log
+[ 2025-12-10T16:28:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:28:23
+mem:3347760
+
+log
+[ 2025-12-10T16:28:33+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:28:33
+mem:3344240
+
+log
+[ 2025-12-10T16:28:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:28:43
+mem:3347760
+
+log
+[ 2025-12-10T16:28:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:28:53
+mem:3347760
+
+log
+[ 2025-12-10T16:29:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:29:03
+mem:3347760
+
+log
+[ 2025-12-10T16:29:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:29:13
+mem:3347760
+
+log
+[ 2025-12-10T16:29:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:29:23
+mem:3347760
+
+log
+[ 2025-12-10T16:29:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:29:33
+mem:3347760
+
+log
+[ 2025-12-10T16:29:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:29:43
+mem:3347760
+
+log
+[ 2025-12-10T16:29:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:29:53
+mem:3347760
+
+log
+[ 2025-12-10T16:30:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:30:03
+mem:3347760
+
+log
+[ 2025-12-10T16:30:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:30:13
+mem:3347760
+
+log
+[ 2025-12-10T16:30:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:30:23
+mem:3347760
+
+log
+[ 2025-12-10T16:30:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:30:33
+mem:3347760
+
+log
+[ 2025-12-10T16:30:43+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:30:43
+mem:3344240
+
+log
+[ 2025-12-10T16:30:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:30:53
+mem:3347760
+
+log
+[ 2025-12-10T16:31:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:31:03
+mem:3347760
+
+log
+[ 2025-12-10T16:31:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:31:13
+mem:3347760
+
+log
+[ 2025-12-10T16:31:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:31:23
+mem:3347760
+
+log
+[ 2025-12-10T16:31:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:31:33
+mem:3347760
+
+log
+[ 2025-12-10T16:31:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:31:43
+mem:3347760
+
+log
+[ 2025-12-10T16:31:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:31:53
+mem:3347760
+
+log
+[ 2025-12-10T16:32:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:32:03
+mem:3347760
+
+log
+[ 2025-12-10T16:32:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:32:13
+mem:3347760
+
+log
+[ 2025-12-10T16:32:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:32:23
+mem:3347760
+
+log
+[ 2025-12-10T16:32:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:32:33
+mem:3347760
+
+log
+[ 2025-12-10T16:32:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:32:43
+mem:3347760
+
+log
+[ 2025-12-10T16:32:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:32:53
+mem:3347760
+
+log
+[ 2025-12-10T16:33:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:33:03
+mem:3347760
+
+log
+[ 2025-12-10T16:33:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:33:13
+mem:3347760
+
+log
+[ 2025-12-10T16:33:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:33:23
+mem:3347760
+
+log
+[ 2025-12-10T16:33:33+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:33:33
+mem:3344240
+
+log
+[ 2025-12-10T16:33:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:33:43
+mem:3347760
+
+log
+[ 2025-12-10T16:33:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:33:53
+mem:3347760
+
+log
+[ 2025-12-10T16:34:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:34:03
+mem:3347760
+
+log
+[ 2025-12-10T16:34:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:34:13
+mem:3347760
+
+log
+[ 2025-12-10T16:34:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:34:23
+mem:3347760
+
+log
+[ 2025-12-10T16:34:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:34:33
+mem:3347760
+
+log
+[ 2025-12-10T16:34:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:34:43
+mem:3347760
+
+log
+[ 2025-12-10T16:34:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:34:53
+mem:3347760
+
+log
+[ 2025-12-10T16:35:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:35:03
+mem:3347760
+
+log
+[ 2025-12-10T16:35:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:35:13
+mem:3347760
+
+log
+[ 2025-12-10T16:35:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:35:23
+mem:3347760
+
+log
+[ 2025-12-10T16:35:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:35:33
+mem:3347760
+
+log
+[ 2025-12-10T16:35:43+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:35:43
+mem:3344240
+
+log
+[ 2025-12-10T16:35:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:35:53
+mem:3347760
+
+log
+[ 2025-12-10T16:36:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:36:03
+mem:3347760
+
+log
+[ 2025-12-10T16:36:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:36:13
+mem:3347760
+
+log
+[ 2025-12-10T16:36:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:36:23
+mem:3347760
+
+log
+[ 2025-12-10T16:36:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:36:33
+mem:3347760
+
+log
+[ 2025-12-10T16:36:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:36:43
+mem:3347760
+
+log
+[ 2025-12-10T16:36:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:36:53
+mem:3347760
+
+log
+[ 2025-12-10T16:37:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:37:03
+mem:3347760
+
+log
+[ 2025-12-10T16:37:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:37:13
+mem:3347760
+
+log
+[ 2025-12-10T16:37:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:37:23
+mem:3347760
+
+log
+[ 2025-12-10T16:37:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:37:33
+mem:3347760
+
+log
+[ 2025-12-10T16:37:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:37:43
+mem:3347760
+
+log
+[ 2025-12-10T16:37:53+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:37:53
+mem:3344240
+
+log
+[ 2025-12-10T16:38:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:38:03
+mem:3347760
+
+log
+[ 2025-12-10T16:38:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:38:13
+mem:3347760
+
+log
+[ 2025-12-10T16:38:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:38:23
+mem:3347760
+
+log
+[ 2025-12-10T16:38:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:38:33
+mem:3347760
+
+log
+[ 2025-12-10T16:38:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:38:43
+mem:3347760
+
+log
+[ 2025-12-10T16:38:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:38:53
+mem:3347760
+
+log
+[ 2025-12-10T16:39:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:39:03
+mem:3347760
+
+log
+[ 2025-12-10T16:39:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:39:13
+mem:3347760
+
+log
+[ 2025-12-10T16:39:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:39:23
+mem:3347760
+
+log
+[ 2025-12-10T16:39:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:39:33
+mem:3347760
+
+log
+[ 2025-12-10T16:39:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:39:43
+mem:3347760
+
+log
+[ 2025-12-10T16:39:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:39:53
+mem:3347760
+
+log
+[ 2025-12-10T16:40:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:40:03
+mem:3347760
+
+log
+[ 2025-12-10T16:40:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:40:13
+mem:3347760
+
+log
+[ 2025-12-10T16:40:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:40:23
+mem:3347760
+
+log
+[ 2025-12-10T16:40:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:40:33
+mem:3347760
+
+log
+[ 2025-12-10T16:40:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:40:43
+mem:3347760
+
+log
+[ 2025-12-10T16:40:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:40:53
+mem:3347760
+
+log
+[ 2025-12-10T16:41:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:41:03
+mem:3347760
+
+log
+[ 2025-12-10T16:41:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:41:13
+mem:3347760
+
+log
+[ 2025-12-10T16:41:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:41:23
+mem:3347760
+
+log
+[ 2025-12-10T16:41:33+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:41:33
+mem:3344240
+
+log
+[ 2025-12-10T16:41:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:41:43
+mem:3347760
+
+log
+[ 2025-12-10T16:41:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:41:53
+mem:3347760
+
+log
+[ 2025-12-10T16:42:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:42:03
+mem:3347760
+
+log
+[ 2025-12-10T16:42:13+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:42:13
+mem:3347760
+
+log
+[ 2025-12-10T16:42:23+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:42:23
+mem:3347760
+
+log
+[ 2025-12-10T16:42:33+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:42:33
+mem:3347760
+
+log
+[ 2025-12-10T16:42:43+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:42:43
+mem:3347760
+
+log
+[ 2025-12-10T16:42:53+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:42:53
+mem:3347760
+
+log
+[ 2025-12-10T16:43:03+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:43:03
+mem:3347760
+
+log
+[ 2025-12-10T16:43:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:43:14
+mem:3347760
+
+log
+[ 2025-12-10T16:43:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:43:24
+mem:3347760
+
+log
+[ 2025-12-10T16:43:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:43:34
+mem:3347760
+
+log
+[ 2025-12-10T16:43:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:43:44
+mem:3347760
+
+log
+[ 2025-12-10T16:43:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:43:54
+mem:3347760
+
+log
+[ 2025-12-10T16:44:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:44:04
+mem:3347760
+
+log
+[ 2025-12-10T16:44:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:44:14
+mem:3347760
+
+log
+[ 2025-12-10T16:44:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:44:24
+mem:3347760
+
+log
+[ 2025-12-10T16:44:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:44:34
+mem:3347760
+
+log
+[ 2025-12-10T16:44:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:44:44
+mem:3347760
+
+log
+[ 2025-12-10T16:44:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:44:54
+mem:3347760
+
+log
+[ 2025-12-10T16:45:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:45:04
+mem:3347760
+
+log
+[ 2025-12-10T16:45:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:45:14
+mem:3347760
+
+log
+[ 2025-12-10T16:45:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:45:24
+mem:3347760
+
+log
+[ 2025-12-10T16:45:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:45:34
+mem:3347760
+
+log
+[ 2025-12-10T16:45:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:45:44
+mem:3347760
+
+log
+[ 2025-12-10T16:45:54+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:45:54
+mem:3344240
+
+log
+[ 2025-12-10T16:46:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:46:04
+mem:3347760
+
+log
+[ 2025-12-10T16:46:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:46:14
+mem:3347760
+
+log
+[ 2025-12-10T16:46:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:46:24
+mem:3347760
+
+log
+[ 2025-12-10T16:46:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:46:34
+mem:3347760
+
+log
+[ 2025-12-10T16:46:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:46:44
+mem:3347760
+
+log
+[ 2025-12-10T16:46:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:46:54
+mem:3347760
+
+log
+[ 2025-12-10T16:47:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:47:04
+mem:3347760
+
+log
+[ 2025-12-10T16:47:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:47:14
+mem:3347760
+
+log
+[ 2025-12-10T16:47:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:47:24
+mem:3347760
+
+log
+[ 2025-12-10T16:47:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:47:34
+mem:3347760
+
+log
+[ 2025-12-10T16:47:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:47:44
+mem:3347760
+
+log
+[ 2025-12-10T16:47:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:47:54
+mem:3347760
+
+log
+[ 2025-12-10T16:48:04+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:48:04
+mem:3344240
+
+log
+[ 2025-12-10T16:48:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:48:14
+mem:3347760
+
+log
+[ 2025-12-10T16:48:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:48:24
+mem:3347760
+
+log
+[ 2025-12-10T16:48:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:48:34
+mem:3347760
+
+log
+[ 2025-12-10T16:48:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:48:44
+mem:3347760
+
+log
+[ 2025-12-10T16:48:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:48:54
+mem:3347760
+
+log
+[ 2025-12-10T16:49:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:49:04
+mem:3347760
+
+log
+[ 2025-12-10T16:49:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:49:14
+mem:3347760
+
+log
+[ 2025-12-10T16:49:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:49:24
+mem:3347760
+
+log
+[ 2025-12-10T16:49:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:49:34
+mem:3347760
+
+log
+[ 2025-12-10T16:49:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:49:44
+mem:3347760
+
+log
+[ 2025-12-10T16:49:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:49:54
+mem:3347760
+
+log
+[ 2025-12-10T16:50:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:50:04
+mem:3347760
+
+log
+[ 2025-12-10T16:50:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:50:14
+mem:3347760
+
+log
+[ 2025-12-10T16:50:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:50:24
+mem:3347760
+
+log
+[ 2025-12-10T16:50:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:50:34
+mem:3347760
+
+log
+[ 2025-12-10T16:50:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:50:44
+mem:3347760
+
+log
+[ 2025-12-10T16:50:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:50:54
+mem:3347760
+
+log
+[ 2025-12-10T16:51:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:51:04
+mem:3347760
+
+log
+[ 2025-12-10T16:51:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:51:14
+mem:3347760
+
+log
+[ 2025-12-10T16:51:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:51:24
+mem:3347760
+
+log
+[ 2025-12-10T16:51:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:51:34
+mem:3347760
+
+log
+[ 2025-12-10T16:51:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:51:44
+mem:3347760
+
+log
+[ 2025-12-10T16:51:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:51:54
+mem:3347760
+
+log
+[ 2025-12-10T16:52:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:52:04
+mem:3347760
+
+log
+[ 2025-12-10T16:52:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:52:14
+mem:3347760
+
+log
+[ 2025-12-10T16:52:24+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:52:24
+mem:3344240
+
+log
+[ 2025-12-10T16:52:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:52:34
+mem:3347760
+
+log
+[ 2025-12-10T16:52:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:52:44
+mem:3347760
+
+log
+[ 2025-12-10T16:52:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:52:54
+mem:3347760
+
+log
+[ 2025-12-10T16:53:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:53:04
+mem:3347760
+
+log
+[ 2025-12-10T16:53:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:53:14
+mem:3347760
+
+log
+[ 2025-12-10T16:53:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:53:24
+mem:3347760
+
+log
+[ 2025-12-10T16:53:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:53:34
+mem:3347760
+
+log
+[ 2025-12-10T16:53:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:53:44
+mem:3347760
+
+log
+[ 2025-12-10T16:53:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:53:54
+mem:3347760
+
+log
+[ 2025-12-10T16:54:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:54:04
+mem:3347760
+
+log
+[ 2025-12-10T16:54:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:54:14
+mem:3347760
+
+log
+[ 2025-12-10T16:54:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:54:24
+mem:3347760
+
+log
+[ 2025-12-10T16:54:34+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:54:34
+mem:3344240
+
+log
+[ 2025-12-10T16:54:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:54:44
+mem:3347760
+
+log
+[ 2025-12-10T16:54:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:54:54
+mem:3347760
+
+log
+[ 2025-12-10T16:55:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:55:04
+mem:3347760
+
+log
+[ 2025-12-10T16:55:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:55:14
+mem:3347760
+
+log
+[ 2025-12-10T16:55:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:55:24
+mem:3347760
+
+log
+[ 2025-12-10T16:55:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:55:34
+mem:3347760
+
+log
+[ 2025-12-10T16:55:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:55:44
+mem:3347760
+
+log
+[ 2025-12-10T16:55:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:55:54
+mem:3347760
+
+log
+[ 2025-12-10T16:56:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:56:04
+mem:3347760
+
+log
+[ 2025-12-10T16:56:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:56:14
+mem:3347760
+
+log
+[ 2025-12-10T16:56:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:56:24
+mem:3347760
+
+log
+[ 2025-12-10T16:56:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:56:34
+mem:3347760
+
+log
+[ 2025-12-10T16:56:44+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:56:44
+mem:3344240
+
+log
+[ 2025-12-10T16:56:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:56:54
+mem:3347760
+
+log
+[ 2025-12-10T16:57:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:57:04
+mem:3347760
+
+log
+[ 2025-12-10T16:57:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:57:14
+mem:3347760
+
+log
+[ 2025-12-10T16:57:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:57:24
+mem:3347760
+
+log
+[ 2025-12-10T16:57:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:57:34
+mem:3347760
+
+log
+[ 2025-12-10T16:57:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:57:44
+mem:3347760
+
+log
+[ 2025-12-10T16:57:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:57:54
+mem:3347760
+
+log
+[ 2025-12-10T16:58:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:58:04
+mem:3347760
+
+log
+[ 2025-12-10T16:58:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:58:14
+mem:3347760
+
+log
+[ 2025-12-10T16:58:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:58:24
+mem:3347760
+
+log
+[ 2025-12-10T16:58:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:58:34
+mem:3347760
+
+log
+[ 2025-12-10T16:58:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:58:44
+mem:3347760
+
+log
+[ 2025-12-10T16:58:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:58:54
+mem:3347760
+
+log
+[ 2025-12-10T16:59:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:59:04
+mem:3347760
+
+log
+[ 2025-12-10T16:59:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:59:14
+mem:3347760
+
+log
+[ 2025-12-10T16:59:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:59:24
+mem:3347760
+
+log
+[ 2025-12-10T16:59:34+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 16:59:34
+mem:3344240
+
+log
+[ 2025-12-10T16:59:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:59:44
+mem:3347760
+
+log
+[ 2025-12-10T16:59:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 16:59:54
+mem:3347760
+
+log
+[ 2025-12-10T17:00:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:00:04
+mem:3347760
+
+log
+[ 2025-12-10T17:00:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:00:14
+mem:3347760
+
+log
+[ 2025-12-10T17:00:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:00:24
+mem:3347760
+
+log
+[ 2025-12-10T17:00:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:00:34
+mem:3347760
+
+log
+[ 2025-12-10T17:00:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:00:44
+mem:3347760
+
+log
+[ 2025-12-10T17:00:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:00:54
+mem:3347760
+
+log
+[ 2025-12-10T17:01:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:01:04
+mem:3347760
+
+log
+[ 2025-12-10T17:01:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:01:14
+mem:3347760
+
+log
+[ 2025-12-10T17:01:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:01:24
+mem:3347760
+
+log
+[ 2025-12-10T17:01:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:01:34
+mem:3347760
+
+log
+[ 2025-12-10T17:01:44+08:00 ][ log ] totalConnections:0
+timeNow:2025-12-10 17:01:44
+mem:3344240
+
+log
+[ 2025-12-10T17:01:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:01:54
+mem:3347760
+
+log
+[ 2025-12-10T17:02:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:02:04
+mem:3347760
+
+log
+[ 2025-12-10T17:02:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:02:14
+mem:3347760
+
+log
+[ 2025-12-10T17:02:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:02:24
+mem:3347760
+
+log
+[ 2025-12-10T17:02:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:02:34
+mem:3347760
+
+log
+[ 2025-12-10T17:02:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:02:44
+mem:3347760
+
+log
+[ 2025-12-10T17:02:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:02:54
+mem:3347760
+
+log
+[ 2025-12-10T17:03:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:03:04
+mem:3347760
+
+log
+[ 2025-12-10T17:03:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:03:14
+mem:3347760
+
+log
+[ 2025-12-10T17:03:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:03:24
+mem:3347760
+
+log
+[ 2025-12-10T17:03:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:03:34
+mem:3347760
+
+log
+[ 2025-12-10T17:03:44+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:03:44
+mem:3347760
+
+log
+[ 2025-12-10T17:03:54+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:03:54
+mem:3347760
+
+log
+[ 2025-12-10T17:04:04+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:04:04
+mem:3347760
+
+log
+[ 2025-12-10T17:04:14+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:04:14
+mem:3347760
+
+log
+[ 2025-12-10T17:04:24+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:04:24
+mem:3347760
+
+log
+[ 2025-12-10T17:04:34+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:04:34
+mem:3347760
+
+log
+[ 2025-12-10T17:04:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:04:45
+mem:3347760
+
+log
+[ 2025-12-10T17:04:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:04:55
+mem:3347760
+
+log
+[ 2025-12-10T17:05:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:05:05
+mem:3347760
+
+log
+[ 2025-12-10T17:05:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:05:15
+mem:3347760
+
+log
+[ 2025-12-10T17:05:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:05:25
+mem:3347760
+
+log
+[ 2025-12-10T17:05:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:05:35
+mem:3347760
+
+log
+[ 2025-12-10T17:05:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:05:45
+mem:3347760
+
+log
+[ 2025-12-10T17:05:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:05:55
+mem:3347760
+
+log
+[ 2025-12-10T17:06:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:06:05
+mem:3347760
+
+log
+[ 2025-12-10T17:06:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:06:15
+mem:3347760
+
+log
+[ 2025-12-10T17:06:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:06:25
+mem:3347760
+
+log
+[ 2025-12-10T17:06:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:06:35
+mem:3347760
+
+log
+[ 2025-12-10T17:06:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:06:45
+mem:3347760
+
+log
+[ 2025-12-10T17:06:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:06:55
+mem:3347760
+
+log
+[ 2025-12-10T17:07:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:07:05
+mem:3347760
+
+log
+[ 2025-12-10T17:07:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:07:15
+mem:3347760
+
+log
+[ 2025-12-10T17:07:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:07:25
+mem:3347760
+
+log
+[ 2025-12-10T17:07:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:07:35
+mem:3347760
+
+log
+[ 2025-12-10T17:07:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:07:45
+mem:3347760
+
+log
+[ 2025-12-10T17:07:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:07:55
+mem:3347760
+
+log
+[ 2025-12-10T17:08:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:08:05
+mem:3347760
+
+log
+[ 2025-12-10T17:08:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:08:15
+mem:3347760
+
+log
+[ 2025-12-10T17:08:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:08:25
+mem:3347760
+
+log
+[ 2025-12-10T17:08:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:08:35
+mem:3347760
+
+log
+[ 2025-12-10T17:08:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:08:45
+mem:3347760
+
+log
+[ 2025-12-10T17:08:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:08:55
+mem:3347760
+
+log
+[ 2025-12-10T17:09:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:09:05
+mem:3347760
+
+log
+[ 2025-12-10T17:09:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:09:15
+mem:3347760
+
+log
+[ 2025-12-10T17:09:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:09:25
+mem:3347760
+
+log
+[ 2025-12-10T17:09:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:09:35
+mem:3347760
+
+log
+[ 2025-12-10T17:09:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:09:45
+mem:3347760
+
+log
+[ 2025-12-10T17:09:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:09:55
+mem:3347760
+
+log
+[ 2025-12-10T17:10:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:10:05
+mem:3347760
+
+log
+[ 2025-12-10T17:10:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:10:15
+mem:3347760
+
+log
+[ 2025-12-10T17:10:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:10:25
+mem:3347760
+
+log
+[ 2025-12-10T17:10:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:10:35
+mem:3347760
+
+log
+[ 2025-12-10T17:10:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:10:45
+mem:3347760
+
+log
+[ 2025-12-10T17:10:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:10:55
+mem:3347760
+
+log
+[ 2025-12-10T17:11:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:11:05
+mem:3347760
+
+log
+[ 2025-12-10T17:11:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:11:15
+mem:3347760
+
+log
+[ 2025-12-10T17:11:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:11:25
+mem:3347760
+
+log
+[ 2025-12-10T17:11:35+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:11:35
+mem:3347760
+
+log
+[ 2025-12-10T17:11:45+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:11:45
+mem:3347760
+
+log
+[ 2025-12-10T17:11:55+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:11:55
+mem:3347760
+
+log
+[ 2025-12-10T17:12:05+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:12:05
+mem:3347760
+
+log
+[ 2025-12-10T17:12:15+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:12:15
+mem:3347760
+
+log
+[ 2025-12-10T17:12:25+08:00 ][ log ] totalConnections:1
+timeNow:2025-12-10 17:12:25
+mem:3347760
+
+log
+[ 2025-12-10T17:12:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T17:12:29+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002760s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002976s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000487s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000820s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000168s ]
+info
+[ 2025-12-10T17:12:30+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002279s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002510s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000460s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000835s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-10T17:28:26+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000104s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002131s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002323s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000446s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000884s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-10T18:28:54+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002068s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002220s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000448s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000817s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000130s ]
+info
+[ 2025-12-10T18:31:20+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002520s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002688s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000420s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000822s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-10T18:37:22+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002033s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002187s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000393s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000800s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000365s ]
+info
+[ 2025-12-10T18:38:47+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002113s ]
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002256s ]
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000384s ]
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000832s ]
+info
+[ 2025-12-10T18:47:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002132s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002285s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000597s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000791s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000345s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000235s ]
+info
+[ 2025-12-10T18:47:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000031s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002243s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002411s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000437s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000807s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000122s ]
+info
+[ 2025-12-10T18:48:32+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002054s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002196s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000380s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000815s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000031s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000169s ]
+info
+[ 2025-12-10T18:50:53+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T18:52:36+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000340s ]
+info
+[ 2025-12-10T18:52:36+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000065s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002294s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002451s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000379s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000816s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000034s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000130s ]
+info
+[ 2025-12-10T18:52:37+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002058s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002213s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000402s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000776s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000029s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000112s ]
+info
+[ 2025-12-10T18:52:49+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002172s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002325s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000435s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000866s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000144s ]
+info
+[ 2025-12-10T18:55:20+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:55:21+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000192s ]
+info
+[ 2025-12-10T18:55:21+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000050s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000090s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002228s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002399s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000396s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000815s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000029s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000126s ]
+info
+[ 2025-12-10T18:55:25+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002005s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002150s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000663s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000860s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000138s ]
+info
+[ 2025-12-10T18:57:29+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002645s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002888s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000413s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000819s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000028s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000125s ]
+info
+[ 2025-12-10T18:58:25+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:06:15+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000214s ]
+info
+[ 2025-12-10T19:06:15+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000056s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002129s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002274s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000438s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000807s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000129s ]
+info
+[ 2025-12-10T19:06:17+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.003144s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003429s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000461s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000863s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000138s ]
+info
+[ 2025-12-10T19:07:01+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002063s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002211s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000407s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000867s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000136s ]
+info
+[ 2025-12-10T19:07:43+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002083s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002235s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000370s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000817s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000024s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000118s ]
+info
+[ 2025-12-10T19:07:51+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002073s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002223s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000378s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001030s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000026s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000127s ]
+info
+[ 2025-12-10T19:10:17+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002385s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002552s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000446s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000829s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000127s ]
+info
+[ 2025-12-10T19:11:34+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002015s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002160s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000397s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001178s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000044s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000199s ]
+info
+[ 2025-12-10T19:11:45+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002123s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002281s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000400s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001043s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000125s ]
+info
+[ 2025-12-10T19:11:48+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002085s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002249s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000420s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000833s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000045s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000233s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000141s ]
+info
+[ 2025-12-10T19:12:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000045s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000090s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.001998s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002143s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000365s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000806s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000125s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000136s ]
+info
+[ 2025-12-10T19:12:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000025s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000087s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002029s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002173s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000375s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000807s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000025s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000118s ]
+info
+[ 2025-12-10T19:13:54+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002040s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002195s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000372s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000814s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000026s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000122s ]
+info
+[ 2025-12-10T19:14:11+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000103s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.003027s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003258s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000434s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000817s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000133s ]
+info
+[ 2025-12-10T19:14:50+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002125s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002277s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000418s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cli',
+    2 => 'test',
+  ),
+)
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000916s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000040s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000123s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ RUN ] app\admin\controller\Cli->test[ D:\share\fadmin\application\admin\controller\Cli.php ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+info
+[ 2025-12-10T19:14:59+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000030s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002028s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002181s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000397s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000809s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000131s ]
+info
+[ 2025-12-10T19:31:24+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002049s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002197s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000368s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000879s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-10T19:32:28+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002046s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002195s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000413s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000819s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000031s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000131s ]
+info
+[ 2025-12-10T19:33:49+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002602s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003153s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000484s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000030s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000138s ]
+info
+[ 2025-12-10T19:47:28+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002334s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002541s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000425s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000880s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000035s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000160s ]
+info
+[ 2025-12-10T19:47:45+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002115s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002264s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000441s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001207s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000055s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000143s ]
+info
+[ 2025-12-10T20:22:10+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T20:22:12+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002137s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002290s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000416s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000859s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000035s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000134s ]
+info
+[ 2025-12-10T20:22:42+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T20:22:44+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000086s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002027s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002172s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000384s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001053s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000034s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000140s ]
+info
+[ 2025-12-10T20:23:25+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T20:23:26+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000079s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002069s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002223s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000405s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000798s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000025s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000128s ]
+info
+[ 2025-12-10T20:23:51+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T20:23:52+08:00 ][ info ] [ DB ] INIT mysql
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002099s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002263s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000424s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000823s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000134s ]
+info
+[ 2025-12-10T20:40:24+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002125s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002283s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000424s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000904s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000141s ]
+info
+[ 2025-12-10T21:36:29+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000108s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002133s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002291s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000392s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000842s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000027s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000149s ]
+info
+[ 2025-12-10T21:36:50+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002321s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002499s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000413s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000889s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000039s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000127s ]
+info
+[ 2025-12-10T21:38:45+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000090s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002102s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002262s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000439s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000828s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000026s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000134s ]
+info
+[ 2025-12-10T21:51:27+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002026s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002177s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000364s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000833s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000032s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000178s ]
+info
+[ 2025-12-10T22:07:22+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002330s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002506s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000429s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000814s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000035s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000133s ]
+info
+[ 2025-12-10T22:15:48+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000103s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002582s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002802s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000408s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000909s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000038s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000145s ]
+info
+[ 2025-12-10T22:23:33+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002311s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002493s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000423s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000825s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000034s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000132s ]
+info
+[ 2025-12-10T22:24:11+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002118s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002268s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000377s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001064s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000031s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000131s ]
+info
+[ 2025-12-10T22:24:42+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002042s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002255s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000411s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000805s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000029s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000131s ]
+info
+[ 2025-12-10T22:25:00+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002109s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002268s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000400s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000799s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000028s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000125s ]
+info
+[ 2025-12-10T22:26:41+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002503s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002717s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000420s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000876s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000139s ]
+info
+[ 2025-12-10T22:27:19+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:33:57+08:00 ][ error ] [8]fwrite(): Send of 127 bytes failed with errno=10053 你的主机中的软件中止了一个已建立的连接。[D:\share\fadmin\vendor\workerman\workerman-for-win\Connection\TcpConnection.php:333]
+error
+[ 2025-12-10T22:33:57+08:00 ][ error ] [8]fwrite(): Send of 127 bytes failed with errno=10053 你的主机中的软件中止了一个已建立的连接。[D:\share\fadmin\vendor\workerman\workerman-for-win\Connection\TcpConnection.php:333]
+error
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002194s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002346s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000397s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000945s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000035s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-10T22:35:34+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002078s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002231s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000394s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000857s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000131s ]
+info
+[ 2025-12-10T22:38:10+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T22:56:16+08:00 ][ error ] [8]fwrite(): Send of 181 bytes failed with errno=10053 你的主机中的软件中止了一个已建立的连接。[D:\share\fadmin\vendor\workerman\workerman-for-win\Connection\TcpConnection.php:333]
+error
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002115s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002278s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000406s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000855s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000038s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000141s ]
+info
+[ 2025-12-10T23:10:02+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002105s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002288s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000405s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000815s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000029s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000132s ]
+info
+[ 2025-12-10T23:22:35+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002339s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002534s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000460s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000810s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000034s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000142s ]
+info
+[ 2025-12-10T23:30:47+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000082s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002053s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002202s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000393s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000800s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000028s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000135s ]
+info
+[ 2025-12-10T23:33:57+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000090s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002185s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002339s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000434s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000841s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000132s ]
+info
+[ 2025-12-10T23:45:44+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002517s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002703s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000387s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000783s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000041s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000122s ]
+info
+[ 2025-12-10T23:46:31+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ LOG ] INIT File
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ CACHE ] INIT File
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.002070s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002224s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000434s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'start',
+    2 => NULL,
+  ),
+)
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ HEADER ] array (
+)
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ PARAM ] array (
+)
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001075s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000036s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000128s ]
+info
+[ 2025-12-10T23:56:40+08:00 ][ info ] [ RUN ] app\admin\controller\Start->index[ D:\share\fadmin\application\admin\controller\Start.php ]
+info
