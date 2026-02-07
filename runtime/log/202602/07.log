@@ -1,24 +1,24 @@
 ---------------------------------------------------------------
-[ 2026-02-07T10:17:33+08:00 ] 172.20.10.3 GET 172.20.10.3:83/jnBIzEyaWQ.php/ausers/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770392854117
-[运行时间：0.155911s] [吞吐率：6.41req/s] [内存消耗：4,344.16kb] [文件加载：98]
-[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ 2026-02-07T23:31:35+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/transfer_log/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770478290393
+[运行时间：0.073382s] [吞吐率：13.63req/s] [内存消耗：4,408.91kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
 [ info ] [ CACHE ] INIT File
-[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.011476s ]
-[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011537s ]
-[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002088s ]
-[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
-[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000061s ]
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.004696s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004803s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001027s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000068s ]
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'admin',
-    1 => 'ausers',
+    1 => 'transfer_log',
     2 => 'index',
   ),
 )
 [ info ] [ HEADER ] array (
-  'cookie' => 'PHPSESSID=5af0fc868f4c502873f17336d3a0d0b7',
+  'cookie' => 'PHPSESSID=e20fee71ed2f3d2cf09d97badf68a1e9',
   'accept-language' => 'zh-CN,zh;q=0.9',
   'accept-encoding' => 'gzip, deflate',
   'content-type' => 'application/json',
@@ -26,7 +26,7 @@
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
   'x-requested-with' => 'XMLHttpRequest',
   'connection' => 'keep-alive',
-  'host' => '172.20.10.3:83',
+  'host' => 'approve.localhost.cn',
   'content-length' => '',
 )
 [ info ] [ PARAM ] array (
@@ -37,10 +37,10 @@
   'limit' => '10',
   'filter' => '{}',
   'op' => '{}',
-  '_' => '1770392854117',
+  '_' => '1770478290393',
 )
-[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
-[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003551s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001442s ]
 [ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000050s ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -50,36 +50,36 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000167s ]
-[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000144s ]
-[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000123s ]
-[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ausers.php
-[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000045s ]
-[ info ] [ RUN ] app\common\controller\Backend->index[ D:\share\fadmin\application\admin\library\traits\Backend.php ]
-[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000917s ]
-[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000100s ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000323s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000299s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000462s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin/lang/zh-cn/transfer_log.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000140s ]
+[ info ] [ RUN ] app\admin\controller\TransferLog->index[ D:\share\TronWebAdmin\application\admin\controller\TransferLog.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000183s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000042s ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
-[ 2026-02-07T10:17:38+08:00 ] 172.20.10.3 GET 172.20.10.3:83/jnBIzEyaWQ.php/ausers/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770392854118
-[运行时间：0.128319s] [吞吐率：7.79req/s] [内存消耗：4,344.16kb] [文件加载：98]
-[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ 2026-02-07T23:31:44+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770478283128
+[运行时间：0.075725s] [吞吐率：13.21req/s] [内存消耗：4,439.32kb] [文件加载：101]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
 [ info ] [ CACHE ] INIT File
-[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.011655s ]
-[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011709s ]
-[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001919s ]
-[ info ] [ LANG ] D:\share\fadmin\thinkphp\lang\zh-cn.php
-[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000053s ]
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.003931s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003956s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000710s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'admin',
-    1 => 'ausers',
+    1 => 'auth.admin',
     2 => 'index',
   ),
 )
 [ info ] [ HEADER ] array (
-  'cookie' => 'PHPSESSID=5af0fc868f4c502873f17336d3a0d0b7',
+  'cookie' => 'PHPSESSID=e20fee71ed2f3d2cf09d97badf68a1e9',
   'accept-language' => 'zh-CN,zh;q=0.9',
   'accept-encoding' => 'gzip, deflate',
   'content-type' => 'application/json',
@@ -87,22 +87,21 @@
   'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
   'x-requested-with' => 'XMLHttpRequest',
   'connection' => 'keep-alive',
-  'host' => '172.20.10.3:83',
+  'host' => 'approve.localhost.cn',
   'content-length' => '',
 )
 [ info ] [ PARAM ] array (
-  'addtabs' => '1',
   'sort' => 'id',
   'order' => 'desc',
   'offset' => '0',
   'limit' => '10',
   'filter' => '{}',
   'op' => '{}',
-  '_' => '1770392854118',
+  '_' => '1770478283128',
 )
-[ info ] [ LANG ] D:\share\fadmin\public/../application/admin\lang\zh-cn.php
-[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003684s ]
-[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000179s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001467s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000049s ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
@@ -111,12 +110,358 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000862s ]
-[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000593s ]
-[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000628s ]
-[ info ] [ LANG ] D:\share\fadmin\public/../application/admin/lang/zh-cn/ausers.php
-[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000208s ]
-[ info ] [ RUN ] app\common\controller\Backend->index[ D:\share\fadmin\application\admin\library\traits\Backend.php ]
-[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
-[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000026s ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000315s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000310s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000371s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000117s ]
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ D:\share\TronWebAdmin\application\admin\controller\auth\Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000278s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T23:31:44+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770478284195
+[运行时间：0.083218s] [吞吐率：12.02req/s] [内存消耗：4,433.58kb] [文件加载：101]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.005525s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005573s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001382s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e20fee71ed2f3d2cf09d97badf68a1e9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'approve.localhost.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1770478284195',
+)
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001788s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000053s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000288s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000254s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000294s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000107s ]
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ D:\share\TronWebAdmin\application\admin\controller\auth\Adminlog.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000266s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T23:31:45+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/auth/group/index?sort=id&order=desc&_=1770478285459
+[运行时间：0.077355s] [吞吐率：12.93req/s] [内存消耗：4,382.84kb] [文件加载：99]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.005261s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005288s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000877s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e20fee71ed2f3d2cf09d97badf68a1e9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'approve.localhost.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1770478285459',
+)
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001544s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000047s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000344s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000297s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000339s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000102s ]
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ D:\share\TronWebAdmin\application\admin\controller\auth\Group.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000308s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000044s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T23:31:48+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/auth/adminlog?addtabs=1
+[运行时间：0.103230s] [吞吐率：9.69req/s] [内存消耗：4,286.64kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.006286s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006319s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001443s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000064s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=69e07367f020febe1437093d31110d1a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'approve.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002661s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000089s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000511s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000419s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000479s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000224s ]
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ D:\share\TronWebAdmin\application\admin\controller\auth\Adminlog.php ]
+[ info ] [ VIEW ] D:\share\TronWebAdmin\public/../application/admin\view\auth\adminlog\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @view_filter [ RunTime:0.000139s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000361s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000065s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T23:31:48+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/ajax/lang?callback=define&controllername=auth.adminlog&lang=zh-cn&v=1770478308
+[运行时间：0.053380s] [吞吐率：18.73req/s] [内存消耗：3,240.00kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.004671s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004699s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000668s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=69e07367f020febe1437093d31110d1a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'approve.localhost.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.adminlog',
+  'lang' => 'zh-cn',
+  'v' => '1770478308',
+)
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001439s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000047s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000285s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000240s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000292s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000086s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\share\TronWebAdmin\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000176s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000042s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T23:31:48+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1770478308701
+[运行时间：0.068253s] [吞吐率：14.65req/s] [内存消耗：4,370.27kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.003638s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003680s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000586s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000068s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=69e07367f020febe1437093d31110d1a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'approve.localhost.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1770478308701',
+)
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001825s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000050s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000230s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000193s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000242s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000080s ]
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ D:\share\TronWebAdmin\application\admin\controller\auth\Adminlog.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000069s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2026-02-07T23:31:49+08:00 ] 127.0.0.1 GET approve.localhost.cn/jnBIzEyaWQ.php/auth/group/index?sort=id&order=desc&_=1770477715413
+[运行时间：0.105094s] [吞吐率：9.52req/s] [内存消耗：4,420.27kb] [文件加载：99]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\qrcode\Qrcode @app_init [ RunTime:0.004869s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004901s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000826s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'sidebar_collapse=0; PHPSESSID=69e07367f020febe1437093d31110d1a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'host' => 'approve.localhost.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1770477715413',
+)
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001575s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @module_init [ RunTime:0.000046s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\betterform\Betterform @config_init [ RunTime:0.000599s ]
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @config_init [ RunTime:0.000504s ]
+[ info ] [ BEHAVIOR ] Run \addons\summernote\Summernote @config_init [ RunTime:0.000565s ]
+[ info ] [ LANG ] D:\share\TronWebAdmin\public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ BEHAVIOR ] Run \addons\encryptpwd\Encryptpwd @action_begin [ RunTime:0.000105s ]
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ D:\share\TronWebAdmin\application\admin\controller\auth\Group.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000153s ]
+[ info ] [ BEHAVIOR ] Run \addons\apilog\Apilog @response_send [ RunTime:0.000038s ]
 [ info ] [ LOG ] INIT File

