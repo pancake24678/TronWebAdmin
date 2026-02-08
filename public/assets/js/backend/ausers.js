@@ -28,7 +28,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 columns: [
                     [
                         { checkbox: true },
-                        { field: 'id', title: __('Id') },
+                        { field: 'id', title: __('Id'), operate: false },
                         { field: 'address', title: __('Address'), operate: 'LIKE', table: table, class: 'autocontent', formatter: Table.api.formatter.content },
                         {
                             field: 'usdt_balance', title: __('Usdt_balance'), operate: false, formatter: function (value, row, index) {
@@ -95,7 +95,18 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                                             });
                                         });
                                     }
-                                }
+                                },
+                                {
+                                    name: 'transferlog',
+                                    text: '划转记录',
+                                    icon: 'fa fa-list',
+                                    classname: 'btn btn-xs btn-primary btn-dialog',
+                                    url: function (row) {
+                                        var filter = { user_id: row.id };
+                                        var op = { user_id: '=' };
+                                        return 'transfer_log/index?filter=' + encodeURIComponent(JSON.stringify(filter)) + '&op=' + encodeURIComponent(JSON.stringify(op));
+                                    }
+                                },
                             ],
                             formatter: Table.api.formatter.operate
                         }

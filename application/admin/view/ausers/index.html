@@ -12,6 +12,9 @@
                         <a class="btn btn-default btn-recyclebin btn-dialog {:$auth->check('ausers/recyclebin')?'':'hide'}" href="ausers/recyclebin" title="{:__('Recycle bin')}"><i class="fa fa-recycle"></i> {:__('Recycle bin')}</a>
                     </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
+                           data-operate-update="{:$auth->check('ausers/refreshrow')}"
+                           data-operate-transfer="{:$auth->check('ausers/transferall')}"
+                           data-operate-transferlog="{:$auth->check('transfer_log/index')}"
                            data-operate-edit="{:$auth->check('ausers/edit')}"
                            data-operate-del="{:$auth->check('ausers/del')}"
                            width="100%">
